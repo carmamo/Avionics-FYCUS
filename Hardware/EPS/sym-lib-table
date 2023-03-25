@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name "EPS")(type "KiCad")(uri "${KIPRJMOD}/EPS.kicad_sym")(options "")(descr ""))
 )
