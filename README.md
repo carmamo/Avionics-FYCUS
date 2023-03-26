@@ -37,7 +37,7 @@
 <h3 align="center">Avionics FYCUS</h3>
 
   <p align="center">
-    project_description
+    Hardware and Firmware for a 3U Cubesat
     <br />
     <a href="https://github.com/carmamo/Avionics-FYCUS"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,8 +83,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-[![Product Name Screen Shot][gui-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]][product-screenshot]
+[![Product Name Screen Shot][gui-screenshot]][gui-screenshot]
 
 This project involves the creation of the PCB and firmware for a 3U CubeSat, in collaboration with FYCUS, a team of passionate students at the University of Seville. Our mission is to design, manufacture and operate small satellites, and this project is a critical step in achieving that goal.
 
