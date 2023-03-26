@@ -418,6 +418,30 @@
     [
       "9c0f8240-4101-424d-bb56-901b56796c9e",
       "MPPT DC-DC"
+    ],
+    [
+      "5f789805-2281-4e3f-97bc-cfcf0a869a8a",
+      "USB Power"
+    ],
+    [
+      "39be741e-0078-4d94-a5a6-ed9c88d98227",
+      "Solar Connector"
+    ],
+    [
+      "a306741f-bf00-4e5f-b102-f8fd5e1c9704",
+      "Solar Connector1"
+    ],
+    [
+      "56d06244-1dfe-4288-8e8e-41715ee14214",
+      "Solar Connector2"
+    ],
+    [
+      "b1ee09d8-cfc5-4013-bbe2-7ade4608d273",
+      "Solar Connector3"
+    ],
+    [
+      "a49db7ff-7806-4c7c-aec2-58dd9347b530",
+      "Mounting Holes"
     ]
   ],
   "text_variables": {}
