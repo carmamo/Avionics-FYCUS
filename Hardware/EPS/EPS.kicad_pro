@@ -442,6 +442,14 @@
     [
       "a49db7ff-7806-4c7c-aec2-58dd9347b530",
       "Mounting Holes"
+    ],
+    [
+      "cddc72f2-e1bc-4be4-a041-ccdbc45a420a",
+      "STM32 MCU"
+    ],
+    [
+      "1c3d599d-82df-4a58-8452-b27f09df78cf",
+      "Board Connector"
     ]
   ],
   "text_variables": {}
