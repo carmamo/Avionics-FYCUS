@@ -1,5 +1,5 @@
 RGB = imread("/home/carlos/Documents/HISPACOLD/Images/ThI_2.bmp");
-
+% hola estoy cambiando cosas jeje
 I = mat2gray(RGB);
 imshow(I);
 colormap jet;
