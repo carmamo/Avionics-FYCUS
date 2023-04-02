@@ -1,4 +1,4 @@
-21571611854369505
+21578335080604261
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+B230A-13-F
+DIOM5226X230N
+DiodesIncSMA
+Diode
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -60822,6 +60829,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NCP176AMX330TCG
+NCP176AMX330TCG
+NCP176AMX330TCG-2
+Integrated Circuit
+0
+7
+7
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -61928,6 +61942,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PESD5V0H1BSFYL
+PMEG3005AESFYL
+SOD962-2
+Diode ESD (Bi-directional)
+0
+2
+2
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -78112,6 +78133,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RT8258GE
+SOT94P279X130-6N
+SOT-23-6
+Integrated Circuit
+0
+6
+6
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf

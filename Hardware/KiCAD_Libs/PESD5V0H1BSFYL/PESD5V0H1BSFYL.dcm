@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD5V0H1BSFYL
+D Nexperia PESD5V0H1BSFYL, Dual Bi-Directional ESD Protection Diode, 2-Pin DSN0603
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD5V0H1BSF.pdf
+$ENDCMP
+#
+#End Doc Library

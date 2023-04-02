@@ -450,6 +450,10 @@
     [
       "1c3d599d-82df-4a58-8452-b27f09df78cf",
       "Board Connector"
+    ],
+    [
+      "a4effa76-f80b-4d3f-a900-97530ceb36a5",
+      "Power"
     ]
   ],
   "text_variables": {}
