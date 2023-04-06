@@ -1,4 +1,4 @@
-21578335080604261
+21583380311365448
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53276,6 +53276,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HZ0805E601R-10
+BEADC2012X90N
+1212 (0805)
+Ferrite Bead
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -58264,6 +58271,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+LSM115JE3_TR13
+DIOM5436X330N
+do-214ba
+Schottky Diode
 0
 2
 2
@@ -90425,3 +90439,10 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+footprints
+NX5032GA-8.000M-STD-CSU-1
+
+
+0
+2
+2

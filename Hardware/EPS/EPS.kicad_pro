@@ -424,24 +424,24 @@
       "USB Power"
     ],
     [
-      "39be741e-0078-4d94-a5a6-ed9c88d98227",
-      "Solar Connector"
+      "68ad7da1-8995-4bdb-8778-d3e6d37189e9",
+      "Solar_Connector1"
     ],
     [
-      "a306741f-bf00-4e5f-b102-f8fd5e1c9704",
-      "Solar Connector1"
+      "1d443205-c4bc-4f55-9db3-c834e8c9c7a8",
+      "Solar_Connector2"
     ],
     [
-      "56d06244-1dfe-4288-8e8e-41715ee14214",
-      "Solar Connector2"
-    ],
-    [
-      "b1ee09d8-cfc5-4013-bbe2-7ade4608d273",
-      "Solar Connector3"
+      "68cf6d81-9002-4372-8ac2-8acdf8ae3c1b",
+      "Solar_Connector3"
     ],
     [
       "a49db7ff-7806-4c7c-aec2-58dd9347b530",
       "Mounting Holes"
+    ],
+    [
+      "c1228a0d-02a5-4718-bb46-1db64a896c03",
+      "Solar_Connector"
     ],
     [
       "cddc72f2-e1bc-4be4-a041-ccdbc45a420a",
@@ -454,6 +454,10 @@
     [
       "a4effa76-f80b-4d3f-a900-97530ceb36a5",
       "Power"
+    ],
+    [
+      "6168d154-285e-441f-96bb-6f996e01d229",
+      "Battery_Connector"
     ]
   ],
   "text_variables": {}
