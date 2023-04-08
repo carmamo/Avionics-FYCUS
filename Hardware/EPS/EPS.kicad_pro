@@ -416,12 +416,24 @@
       ""
     ],
     [
+      "cddc72f2-e1bc-4be4-a041-ccdbc45a420a",
+      "STM32 MCU"
+    ],
+    [
       "9c0f8240-4101-424d-bb56-901b56796c9e",
       "MPPT DC-DC"
     ],
     [
       "5f789805-2281-4e3f-97bc-cfcf0a869a8a",
       "USB Power"
+    ],
+    [
+      "a4effa76-f80b-4d3f-a900-97530ceb36a5",
+      "Power"
+    ],
+    [
+      "c1228a0d-02a5-4718-bb46-1db64a896c03",
+      "Solar_Connector"
     ],
     [
       "68ad7da1-8995-4bdb-8778-d3e6d37189e9",
@@ -436,28 +448,16 @@
       "Solar_Connector3"
     ],
     [
-      "a49db7ff-7806-4c7c-aec2-58dd9347b530",
-      "Mounting Holes"
-    ],
-    [
-      "c1228a0d-02a5-4718-bb46-1db64a896c03",
-      "Solar_Connector"
-    ],
-    [
-      "cddc72f2-e1bc-4be4-a041-ccdbc45a420a",
-      "STM32 MCU"
-    ],
-    [
       "1c3d599d-82df-4a58-8452-b27f09df78cf",
       "Board Connector"
     ],
     [
-      "a4effa76-f80b-4d3f-a900-97530ceb36a5",
-      "Power"
-    ],
-    [
       "6168d154-285e-441f-96bb-6f996e01d229",
       "Battery_Connector"
+    ],
+    [
+      "a49db7ff-7806-4c7c-aec2-58dd9347b530",
+      "Mounting Holes"
     ]
   ],
   "text_variables": {}

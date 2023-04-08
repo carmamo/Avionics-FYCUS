@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "EPS Schematics")
+    (date "2023-04-08")
+    (rev "v0.0.2")
+    (comment 1 "e-mail: carmamo.95@gmail.com")
+    (comment 2 "Author: Carlos Martinez Mora")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -102,10 +110,10 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Reference_1" "D" (id 4) (at 12.7 8.89 0)
+      (property "Reference_1" "D" (id 4) (at -7.62 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value_1" "LSM115JE3_TR13" (id 5) (at 12.7 6.35 0)
+      (property "Value_1" "LSM115JE3_TR13" (id 5) (at -7.62 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint_1" "DIOM5436X330N" (id 6) (at 12.7 -93.65 0)

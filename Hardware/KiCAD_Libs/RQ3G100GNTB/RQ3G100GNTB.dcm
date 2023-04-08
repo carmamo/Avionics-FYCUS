@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RQ3G100GNTB
+D Nch 40V 27A Power MOSFET 
+K
+F https://componentsearchengine.com/Datasheets/1/RQ3G100GNTB.pdf
+$ENDCMP
+#
+#End Doc Library
