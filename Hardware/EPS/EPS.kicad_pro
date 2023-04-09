@@ -416,7 +416,7 @@
       ""
     ],
     [
-      "cddc72f2-e1bc-4be4-a041-ccdbc45a420a",
+      "fce2c6bb-ef53-4035-b85e-d059417861f8",
       "STM32 MCU"
     ],
     [
@@ -430,6 +430,10 @@
     [
       "a4effa76-f80b-4d3f-a900-97530ceb36a5",
       "Power"
+    ],
+    [
+      "1c3d599d-82df-4a58-8452-b27f09df78cf",
+      "Board Connector"
     ],
     [
       "c1228a0d-02a5-4718-bb46-1db64a896c03",
@@ -446,10 +450,6 @@
     [
       "68cf6d81-9002-4372-8ac2-8acdf8ae3c1b",
       "Solar_Connector3"
-    ],
-    [
-      "1c3d599d-82df-4a58-8452-b27f09df78cf",
-      "Board Connector"
     ],
     [
       "6168d154-285e-441f-96bb-6f996e01d229",
