@@ -13,6 +13,10 @@
   )
 
   (lib_symbols
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
     (symbol "0ZCJ0050AF2E:0ZCJ0050AF2E" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "" (id 0) (at 0 0 0)
         (effects (font (size 1.27 1.27)))
@@ -85,6 +89,11 @@
         )
       )
     )
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -173,11 +182,26 @@
   )
 
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+  (wire (pts (xy 148.59 67.31) (xy 148.59 85.09))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f14e7dd3-0e2f-4efb-a7c4-72728a18d818)
+  )
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   (hierarchical_label "VBAT" (shape bidirectional) (at 148.59 67.31 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3147699b-7ab0-4e46-ac29-33ac6b942a5a)
   )
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
   (symbol (lib_id "0ZCJ0050AF2E:0ZCJ0050AF2E") (at 148.59 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a35d4544-ecb8-409c-a885-312364de0ea6)
@@ -234,12 +258,29 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ac83d17b-b93b-417d-a9b0-e760d7a59670)
     (property "Reference" "J?" (id 0) (at 155.702 85.5253 0)
+<<<<<<< Updated upstream
+=======
+=======
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 153.67 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid ac83d17b-b93b-417d-a9b0-e760d7a59670)
+    (property "Reference" "J1101" (id 0) (at 155.702 85.5253 0)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (id 1) (at 155.702 88.0622 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "" (id 2) (at 153.67 85.09 0)
+=======
+<<<<<<< Updated upstream
+    (property "Footprint" "" (id 2) (at 153.67 85.09 0)
+=======
+    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" (id 2) (at 153.67 85.09 0)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 153.67 85.09 0)
@@ -252,7 +293,15 @@
   (symbol (lib_id "power:GND") (at 148.59 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da96dfe4-407d-4cba-91b1-6a88281b6904)
+<<<<<<< Updated upstream
     (property "Reference" "#PWR?" (id 0) (at 148.59 93.98 0)
+=======
+<<<<<<< Updated upstream
+    (property "Reference" "#PWR?" (id 0) (at 148.59 93.98 0)
+=======
+    (property "Reference" "#PWR01101" (id 0) (at 148.59 93.98 0)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 148.59 92.0734 0))

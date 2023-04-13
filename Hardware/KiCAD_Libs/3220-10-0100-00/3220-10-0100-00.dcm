@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3220-10-0100-00
+D Conn Shrouded Header (4 Sides) HDR 10 POS 1.27mm Solder ST Thru-Hole
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-7/133059.pdf
+$ENDCMP
+#
+#End Doc Library
