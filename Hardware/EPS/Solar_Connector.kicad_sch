@@ -264,45 +264,13 @@
   (symbol (lib_id "Device:R") (at 123.19 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0c09cdd5-4673-468f-bf52-bc7c31bdec24)
-<<<<<<< Updated upstream
-    (property "Reference" "R?" (id 0) (at 124.968 77.9053 0)
-=======
-<<<<<<< Updated upstream
-    (property "Reference" "R?" (id 0) (at 140.208 77.9053 0)
-=======
-<<<<<<< Updated upstream
-    (property "Reference" "R?" (id 0) (at 124.968 77.9053 0)
-=======
-<<<<<<< Updated upstream
-    (property "Reference" "R?" (id 0) (at 140.208 77.9053 0)
-=======
     (property "Reference" "R701" (id 0) (at 124.968 77.9053 0)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (id 1) (at 124.968 80.4422 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 121.412 78.74 90)
-=======
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 136.652 78.74 90)
-=======
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 121.412 78.74 90)
-=======
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 136.652 78.74 90)
-=======
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 121.412 78.74 90)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 78.74 0)
@@ -329,45 +297,14 @@
 
   (symbol (lib_id "Device:R") (at 123.19 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-<<<<<<< Updated upstream
-    (uuid f08f266d-260f-4b3d-9ab1-0350d66ba298)
-    (property "Reference" "R?" (id 0) (at 124.968 85.5253 0)
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-    (uuid f08f266d-260f-4b3d-9ab1-0350d66ba298)
-    (property "Reference" "R?" (id 0) (at 124.968 85.5253 0)
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-    (uuid 5c8e7a66-b745-498b-b8c6-1c399e51d002)
-    (property "Reference" "D?" (id 0) (at 146.05 69.9602 0))
-    (property "Value" "D" (id 1) (at 146.05 72.4971 0))
-    (property "Footprint" "" (id 2) (at 146.05 74.93 0)
-<<<<<<< Updated upstream
-=======
-=======
     (uuid f08f266d-260f-4b3d-9ab1-0350d66ba298)
     (property "Reference" "R702" (id 0) (at 124.968 85.5253 0)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 124.968 88.0622 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 124.968 86.36 90)
-=======
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 124.968 86.36 90)
-=======
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 124.968 86.36 90)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 86.36 0)
@@ -377,55 +314,16 @@
     (pin "2" (uuid 6ebd5ee8-49ce-4c08-86da-aad603330522))
   )
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
   (symbol (lib_id "LSM115JE3_TR13:LSM115JE3_TR13") (at 119.38 82.55 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fc460fa9-1b07-4c78-bdac-73b65b3d2cc0)
-    (property "Reference" "?" (id 0) (at 96.52 78.7431 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-<<<<<<< Updated upstream
-=======
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-  (symbol (lib_id "power:GND") (at 115.57 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 61426158-d05f-4b71-abd1-97b5b043f26b)
-    (property "Reference" "#PWR?" (id 0) (at 115.57 93.98 0)
-<<<<<<< Updated upstream
-=======
-=======
-  (symbol (lib_id "LSM115JE3_TR13:LSM115JE3_TR13") (at 119.38 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid fc460fa9-1b07-4c78-bdac-73b65b3d2cc0)
-    (property "Reference" "U701" (id 0) (at 96.52 78.7431 90)
+    (property "Reference" "D701" (id 0) (at 96.52 78.7431 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LSM115JE3_TR13" (id 1) (at 96.52 81.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "LSM115JE3_TR13:DIOM5436X330N" (id 2) (at 119.38 82.55 0)
->>>>>>> Stashed changes
-      (effects (font (size 1.27 1.27)) hide)
->>>>>>> Stashed changes
-    )
-    (property "Value" "LSM115JE3_TR13" (id 1) (at 96.52 81.28 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 119.38 82.55 0)
->>>>>>> Stashed changes
-      (effects (font (size 1.27 1.27)) hide)
->>>>>>> Stashed changes
-    )
-    (property "Value" "LSM115JE3_TR13" (id 1) (at 96.52 81.28 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 119.38 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 119.38 82.55 0)

@@ -13,87 +13,6 @@
   )
 
   (lib_symbols
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-    (symbol "0ZCJ0050AF2E:0ZCJ0050AF2E" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "" (id 0) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "0ZCJ0050AF2E" (id 1) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Reference_1" "F" (id 4) (at 13.97 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Value_1" "0ZCJ0050AF2E" (id 5) (at 13.97 3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Footprint_1" "FUSC3216X120N" (id 6) (at 13.97 -96.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Datasheet_1" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7d7191d77363ec710a142f55990dd75c.pdf" (id 7) (at 13.97 -196.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Height" "1.2" (id 8) (at 13.97 -396.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Manufacturer_Name" "BelFuse" (id 9) (at 13.97 -496.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Manufacturer_Part_Number" "0ZCJ0050AF2E" (id 10) (at 13.97 -596.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Mouser Part Number" "530-0ZCJ0050AF2E" (id 11) (at 13.97 -696.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0ZCJ0050AF2E?qs=SRYZG9HaIQ3Oqm1PQp276Q%3D%3D" (id 12) (at 13.97 -796.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Arrow Part Number" "0ZCJ0050AF2E" (id 13) (at 13.97 -896.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Arrow Price/Stock" "https://www.arrow.com/en/products/0zcj0050af2e/bel-group" (id 14) (at 13.97 -996.19 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "ki_description" "BEL FUSE - 0ZCJ0050AF2E - FUSE, RESETTABLE PTC, 24VDC, 0.5A, SMD" (id 15) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "0ZCJ0050AF2E_1_1"
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy 12.7 0)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start 5.08 1.27) (end 12.7 -1.27)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 17.78 0 180) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -182,105 +101,26 @@
   )
 
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
   (wire (pts (xy 148.59 67.31) (xy 148.59 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f14e7dd3-0e2f-4efb-a7c4-72728a18d818)
   )
 
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   (hierarchical_label "VBAT" (shape bidirectional) (at 148.59 67.31 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3147699b-7ab0-4e46-ac29-33ac6b942a5a)
   )
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-  (symbol (lib_id "0ZCJ0050AF2E:0ZCJ0050AF2E") (at 148.59 85.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid a35d4544-ecb8-409c-a885-312364de0ea6)
-    (property "Reference" "?" (id 0) (at 150.622 72.8284 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "0ZCJ0050AF2E" (id 1) (at 150.622 75.3653 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 148.59 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 148.59 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Reference_1" "F" (id 4) (at 150.622 77.9022 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value_1" "0ZCJ0050AF2E" (id 5) (at 150.622 80.4391 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint_1" "FUSC3216X120N" (id 6) (at 244.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet_1" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7d7191d77363ec710a142f55990dd75c.pdf" (id 7) (at 344.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.2" (id 8) (at 544.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "BelFuse" (id 9) (at 644.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "0ZCJ0050AF2E" (id 10) (at 744.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "530-0ZCJ0050AF2E" (id 11) (at 844.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0ZCJ0050AF2E?qs=SRYZG9HaIQ3Oqm1PQp276Q%3D%3D" (id 12) (at 944.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "0ZCJ0050AF2E" (id 13) (at 1044.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/0zcj0050af2e/bel-group" (id 14) (at 1144.78 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 764c4f60-73e8-4962-a29a-b533ad005942))
-    (pin "2" (uuid adc425dd-c99a-4935-a1d7-fc26df9241ce))
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 153.67 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ac83d17b-b93b-417d-a9b0-e760d7a59670)
-    (property "Reference" "J?" (id 0) (at 155.702 85.5253 0)
-<<<<<<< Updated upstream
-=======
-=======
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 153.67 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ac83d17b-b93b-417d-a9b0-e760d7a59670)
     (property "Reference" "J1101" (id 0) (at 155.702 85.5253 0)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (id 1) (at 155.702 88.0622 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 153.67 85.09 0)
-=======
-<<<<<<< Updated upstream
-    (property "Footprint" "" (id 2) (at 153.67 85.09 0)
-=======
     (property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" (id 2) (at 153.67 85.09 0)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 153.67 85.09 0)
@@ -293,15 +133,7 @@
   (symbol (lib_id "power:GND") (at 148.59 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da96dfe4-407d-4cba-91b1-6a88281b6904)
-<<<<<<< Updated upstream
-    (property "Reference" "#PWR?" (id 0) (at 148.59 93.98 0)
-=======
-<<<<<<< Updated upstream
-    (property "Reference" "#PWR?" (id 0) (at 148.59 93.98 0)
-=======
     (property "Reference" "#PWR01101" (id 0) (at 148.59 93.98 0)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 148.59 92.0734 0))
