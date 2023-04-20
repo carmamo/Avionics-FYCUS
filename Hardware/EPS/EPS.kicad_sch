@@ -1361,7 +1361,7 @@
     (path "/6168d154-285e-441f-96bb-6f996e01d229/da96dfe4-407d-4cba-91b1-6a88281b6904"
       (reference "#PWR01101") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/9a835c16-ed73-418f-97d0-170e0d98905d"
+    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/be94b6a8-346b-40bd-939b-18a3c18bdd45"
       (reference "#PWR01201") (unit 1) (value "GND") (footprint "")
     )
     (path "/fce2c6bb-ef53-4035-b85e-d059417861f8/c5e47bd0-73f1-4697-b4e4-c6b853a0d810"
@@ -1535,16 +1535,16 @@
     (path "/a4effa76-f80b-4d3f-a900-97530ceb36a5/13b9c60c-69ba-4b67-b296-f97488f8d164"
       (reference "L502") (unit 1) (value "15uH") (footprint "SLF12565T-150M4R2-PF:SLF12565")
     )
-    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/bec0eaa3-3ed2-4d72-9ed7-ec511042c810"
+    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/48ce34ab-8d15-43c1-bb08-9933ac4ec019"
       (reference "M1201") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
-    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/49abd65f-ceac-4f6c-8cf2-db2bb0b34e4c"
+    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/b304f438-48b1-4a13-9e03-415fa0317520"
       (reference "M1202") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
-    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/36ed50fb-ada9-489b-8a6b-fe403c4c4fcc"
+    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/b90da0e6-890e-4184-8b93-46b230e1c29d"
       (reference "M1203") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
-    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/c7d7b096-8f1f-468f-aea3-eb9654944193"
+    (path "/a49db7ff-7806-4c7c-aec2-58dd9347b530/d76f6fb0-a9be-404f-8f15-8f695fd6af2f"
       (reference "M1204") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/9c0f8240-4101-424d-bb56-901b56796c9e/2e796f2f-999a-4d81-bab3-6ec204b21edf"
