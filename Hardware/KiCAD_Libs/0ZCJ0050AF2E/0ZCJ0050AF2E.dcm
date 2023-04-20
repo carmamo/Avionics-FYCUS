@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0ZCJ0050AF2E
+D BEL FUSE - 0ZCJ0050AF2E - FUSE, RESETTABLE PTC, 24VDC, 0.5A, SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7d7191d77363ec710a142f55990dd75c.pdf
+$ENDCMP
+#
+#End Doc Library

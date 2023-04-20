@@ -1,4 +1,32 @@
-21571611854369505
+21606934548293294
+0ZCJ0050AF2E
+FUSC3216X120N
+0ZCJ0050AF2E-1
+Fuse
+0
+2
+2
+3220-10-0100-00
+322010010000
+3220-10-0100-00-4
+Connector
+0
+10
+10
+0530480210
+SHDRRA2W35P0X125_1X2_425X550X350P
+0530480210
+Connector
+0
+2
+2
+AP7361C-25Y5-13
+AP7361C25Y513
+AP7361C-25Y5-13-3
+Integrated Circuit
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +41,13 @@ audio belton reverb
 0
 7
 7
+B230A-13-F
+DIOM5226X230N
+DiodesIncSMA
+Diode
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52254,6 +52289,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EEHZS1H151V
+CAP_EEHZS1H151V
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -53266,6 +53308,13 @@ Fuse
 Fuseholder_TR5_Littelfuse_No560_No460
 Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf
 Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
+HZ0805E601R-10
+BEADC2012X90N
+1212 (0805)
+Ferrite Bead
 0
 2
 2
@@ -58260,6 +58309,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LSM115JE3_TR13
+DIOM5436X330N
+do-214ba
+Schottky Diode
+0
+2
+2
 LTC4162EUFD-L41_PBF
 QFN50P500X400X80-29N
 
@@ -60822,6 +60878,34 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NCP176AMX330TCG
+NCP176AMX330TCG
+NCP176AMX330TCG-2
+Integrated Circuit
+0
+7
+7
+NX5032GA-8.000M
+XTAL_NX5032_NDK
+
+NX5032GA-8.000M-STD-CSU-1 
+0
+2
+2
+NX5032GA-8.000M
+XTAL_NX5032_NDK-L
+
+NX5032GA-8.000M-STD-CSU-1 
+0
+2
+2
+NX5032GA-8.000M
+XTAL_NX5032_NDK-M
+
+NX5032GA-8.000M-STD-CSU-1 
+0
+2
+2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -61928,6 +62012,20 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PESD3V3L4BHCYL
+SON45P80X130X43-6N
+DFN1308-6 (SOT8006)
+Diode
+0
+6
+6
+PESD5V0H1BSFYL
+PMEG3005AESFYL
+SOD962-2
+Diode ESD (Bi-directional)
+0
+2
+2
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -78112,6 +78210,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RQ3G100GNTB
+RQ3G100GNTB
+HSMT8 (3.3x3.3)_2022
+MOSFET (N-Channel)
+0
+9
+9
+RT8258GE
+SOT94P279X130-6N
+SOT-23-6
+Integrated Circuit
+0
+6
+6
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -80065,6 +80177,20 @@ rotary encoder
 0
 7
 6
+SLF12555T-100M3R4-PF
+SLF12555T
+SLF12555
+Inductor
+0
+2
+2
+SLF12565T-150M4R2-PF
+SLF12565
+SLF12565
+Inductor
+0
+2
+2
 STM32L431RCT
 LQFP-64
 
@@ -80083,6 +80209,13 @@ STM32L431RCT
 LQFP-64-M
 
 STM32L431RCT6 
+0
+64
+64
+STM32L431RCT6
+QFP50P1200X1200X160-64N
+STM32L431RCT6
+Integrated Circuit
 0
 64
 64
@@ -86372,6 +86505,13 @@ transformer flyback
 0
 14
 14
+USB4125-GF-A-0190
+USB4125GFA0190
+USB4125-GF-A-0190-2
+Connector
+0
+10
+10
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -87146,6 +87286,13 @@ Varistor
 RV_Rect_V25S440P_L26.5mm_W8.2mm_P12.7mm
 Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b410c42c-51d1-460e-b1d9-d105d93c9679&filename=littelfuse-varistor-ultramov25s-datasheet
 varistor
+0
+2
+2
+XAL1060-222MEB
+XAL1060222MEB
+XAL1060-222MEB-2
+Inductor
 0
 2
 2

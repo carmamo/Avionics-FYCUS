@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HZ0805E601R-10
+D FERRITE BEAD 600 OHM 0805 1LN
+K
+F https://assets.lairdtech.com/home/brandworld/files/Catalog_EMI%20FILTERING%20RF%200717.pdf
+$ENDCMP
+#
+#End Doc Library
