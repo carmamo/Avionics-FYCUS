@@ -814,3 +814,57 @@ Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmw
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-19 13:49:25.306
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-04-29 18:37:14.459 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-29 18:37:20.089
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-29 18:37:20.150
+!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-29 18:37:20.763
+!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-29 18:37:24.506
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-04-30 00:58:15.599 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-30 00:58:19.617
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-30 00:58:19.672
+!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-30 00:58:20.207
+!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-30 00:58:24.122
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-04-30 19:14:45.419 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-30 19:14:49.779
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-30 19:14:49.846
+!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-30 19:14:50.450
+!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-30 19:14:55.085
+!MESSAGE Started RMI Server, listening on port 41337

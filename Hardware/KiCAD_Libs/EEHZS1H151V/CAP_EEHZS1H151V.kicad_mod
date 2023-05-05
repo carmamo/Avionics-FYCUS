@@ -97,7 +97,7 @@
   (fp_line (start -3.35 -5.15) (end -5.15 -3.35) (layer "F.Fab") (width 0.127) (tstamp 9fedb61d-3a10-4d66-8be9-8354595ebbaf))
   (fp_circle (center -6.3 -2.1) (end -6.2 -2.1) (layer "F.Fab") (width 0.2) (fill none) (tstamp 8fb18c33-34e9-47b1-b58c-0499b7057454))
   (pad "1" smd custom (at -3.8 0) (size 2 2) (layers "F.Cu")
-    (zone_connect 1) (thermal_width 1.016)
+    (zone_connect 2) (thermal_width 1.016)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -116,7 +116,7 @@
         ) (width 0.01) (fill yes))
     ) (tstamp b6c15632-be39-47c9-adb7-a0bb711baec7))
   (pad "2" smd custom (at 3.8 0 180) (size 2 2) (layers "F.Cu")
-    (zone_connect 1) (thermal_width 1.016)
+    (zone_connect 2) (thermal_width 1.016)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
