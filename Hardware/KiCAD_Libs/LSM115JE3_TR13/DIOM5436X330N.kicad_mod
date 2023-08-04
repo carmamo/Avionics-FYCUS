@@ -29,6 +29,20 @@
   (fp_line (start -2.7 -1.81) (end 2.7 -1.81) (layer "F.Fab") (width 0.1) (tstamp 61a3306b-0fa7-46b0-8b0f-691ed58ac479))
   (pad "1" smd rect (at -2.2 0 90) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3552415f-8a83-4e16-b8f8-a330fe5fdc3f))
   (pad "2" smd rect (at 2.2 0 90) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 201a8c32-b650-45bc-9a04-7fd2b4bcf957))
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 788a32e5-07b2-4b5e-a9b3-f9aba79c69dc) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 1.1 1.71)
+        (xy -1.1 1.71)
+        (xy -1.1 -1.71)
+        (xy 1.1 -1.71)
+      )
+    )
+  )
   (model "LSM115JE3_TR13.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

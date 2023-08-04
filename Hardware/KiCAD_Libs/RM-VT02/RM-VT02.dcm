@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RM-VT02
+D VT02 RADFET Readout Module
+K
+F https://www.varadis.com/wp-content/uploads/2021/06/RM-VT02_Datasheet_rev1p1.pdf
+$ENDCMP
+#
+#End Doc Library
