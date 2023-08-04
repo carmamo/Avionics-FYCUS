@@ -8282,3 +8282,989 @@
 
 
 2023-04-30 19:14:49,849 [INFO] Activator:180 - !SESSION log4j initialized
+2023-08-03 21:35:11,395 [INFO] Activator:179 - 
+
+
+2023-08-03 21:35:11,396 [INFO] Activator:180 - !SESSION log4j initialized
+2023-08-03 21:35:19,287 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-08-03 21:35:19,430 [INFO] ApplicationProperties:181 - Using Application install path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-08-03 21:35:19,449 [INFO] DbMcusXml:77 - Set database path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//mcu/
+2023-08-03 21:35:19,450 [INFO] ApiDb:273 - Set plugin database path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/boardmanager/
+2023-08-03 21:35:19,453 [WARN] ApiDb:258 - Overriding images path with different value:  => /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/mcufinder/images/
+2023-08-03 21:35:19,471 [INFO] ApiDb:249 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/
+2023-08-03 21:35:19,474 [INFO] DbMcusAds:124 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/
+2023-08-03 21:35:19,479 [INFO] CrossReferenceDbSqlite:202 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-08-03 21:35:19,583 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-08-03 21:35:19,649 [INFO] DbMcusXml:77 - Set database path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//mcu/
+2023-08-03 21:35:19,649 [INFO] ApiDb:273 - Set plugin database path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/boardmanager/
+2023-08-03 21:35:19,649 [INFO] ApiDb:260 - Set plugin images path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/mcufinder/images/
+2023-08-03 21:35:19,650 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,650 [INFO] ApiDb:249 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/
+2023-08-03 21:35:19,650 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,650 [INFO] DbMcusAds:124 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/
+2023-08-03 21:35:19,651 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,652 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,652 [INFO] CrossReferenceDbSqlite:202 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-08-03 21:35:19,720 [INFO] MainPanel:252 - HeapMemory: 268435456
+2023-08-03 21:35:19,807 [INFO] DbMcusXml:77 - Set database path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//mcu/
+2023-08-03 21:35:19,808 [INFO] ApiDb:273 - Set plugin database path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/boardmanager/
+2023-08-03 21:35:19,808 [INFO] ApiDb:260 - Set plugin images path to: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/mcufinder/images/
+2023-08-03 21:35:19,808 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,809 [INFO] ApiDb:249 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/
+2023-08-03 21:35:19,809 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,809 [INFO] DbMcusAds:124 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/
+2023-08-03 21:35:19,809 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,809 [WARN] DbFile:40 - Overriding database path with different value: /home/carlos/.stmcufinder/plugins/mcufinder/ => /home/carlos/.stmcufinder/plugins/mcufinder
+2023-08-03 21:35:19,809 [INFO] CrossReferenceDbSqlite:202 - Set database path to: /home/carlos/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-08-03 21:35:19,827 [INFO] ApplicationProperties:181 - Using Application install path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-08-03 21:35:19,829 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-08-03 21:35:19,831 [INFO] PluginManage:307 - Check plugin analytics
+2023-08-03 21:35:19,976 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2023-08-03 21:35:19,977 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-08-03 21:35:19,977 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2023-08-03 21:35:19,985 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-08-03 21:35:19,985 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-08-03 21:35:20,022 [INFO] CADModel:104 - Init CAD model plugin
+2023-08-03 21:35:20,023 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-08-03 21:35:20,023 [INFO] PluginManage:307 - Check plugin clock
+2023-08-03 21:35:20,032 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-08-03 21:35:20,033 [INFO] PluginManage:307 - Check plugin ddr
+2023-08-03 21:35:20,035 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-08-03 21:35:20,035 [INFO] PluginManage:307 - Check plugin filemanager
+2023-08-03 21:35:20,226 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-08-03 21:35:20,227 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-08-03 21:35:20,231 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-08-03 21:35:20,232 [INFO] PluginManage:307 - Check plugin lpbam
+2023-08-03 21:35:20,240 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-08-03 21:35:20,240 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-08-03 21:35:20,247 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-08-03 21:35:20,247 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-08-03 21:35:20,272 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-08-03 21:35:20,272 [INFO] PluginManage:307 - Check plugin power
+2023-08-03 21:35:20,280 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-08-03 21:35:20,280 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-08-03 21:35:20,301 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-08-03 21:35:20,301 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-08-03 21:35:20,438 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-08-03 21:35:20,439 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-08-03 21:35:20,440 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-08-03 21:35:20,440 [INFO] PluginManage:307 - Check plugin tools
+2023-08-03 21:35:20,443 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-08-03 21:35:20,443 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-08-03 21:35:20,443 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-08-03 21:35:20,627 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-08-03 21:35:20,627 [INFO] PluginManage:307 - Check plugin updater
+2023-08-03 21:35:20,645 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-08-03 21:35:20,646 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-08-03 21:35:20,914 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-08-03 21:35:20,964 [INFO] CADModel:164 - CPN selected for project level
+2023-08-03 21:35:20,964 [INFO] CADModel:113 - Register for checkConnection events
+2023-08-03 21:35:20,981 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:20,982 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-08-03 21:35:20,984 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:20,984 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-08-03 21:35:20,986 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:20,986 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-08-03 21:35:20,991 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:20,992 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-08-03 21:35:20,996 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:20,997 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-08-03 21:35:21,000 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,000 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-08-03 21:35:21,002 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,003 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-08-03 21:35:21,006 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,006 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-08-03 21:35:21,011 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,012 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-08-03 21:35:21,013 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,014 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-08-03 21:35:21,016 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,016 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-08-03 21:35:21,019 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,020 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-08-03 21:35:21,022 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,023 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-08-03 21:35:21,029 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,033 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-08-03 21:35:21,038 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,039 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-08-03 21:35:21,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,041 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-08-03 21:35:21,043 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,043 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-08-03 21:35:21,045 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,045 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-08-03 21:35:21,047 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,048 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-08-03 21:35:21,050 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,050 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-08-03 21:35:21,055 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,055 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-08-03 21:35:21,056 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,057 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-08-03 21:35:21,071 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,072 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-08-03 21:35:21,081 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,082 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-08-03 21:35:21,083 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,084 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-08-03 21:35:21,085 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,085 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-08-03 21:35:21,087 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,088 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-08-03 21:35:21,092 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,093 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-08-03 21:35:21,097 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,097 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-08-03 21:35:21,099 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,100 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-08-03 21:35:21,105 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,105 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-08-03 21:35:21,107 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,107 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-08-03 21:35:21,111 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,112 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-08-03 21:35:21,113 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,113 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-08-03 21:35:21,115 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,115 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-08-03 21:35:21,117 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,117 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-08-03 21:35:21,120 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,120 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-08-03 21:35:21,122 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,122 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-08-03 21:35:21,124 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,125 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-08-03 21:35:21,127 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,127 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-08-03 21:35:21,130 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,130 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-08-03 21:35:21,133 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:21,133 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-08-03 21:35:21,241 [INFO] CADModel:164 - CPN selected for project level
+2023-08-03 21:35:21,242 [INFO] CADModel:113 - Register for checkConnection events
+2023-08-03 21:35:21,242 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,242 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-08-03 21:35:21,409 [INFO] CADModel:164 - CPN selected for project level
+2023-08-03 21:35:21,410 [INFO] CADModel:113 - Register for checkConnection events
+2023-08-03 21:35:21,410 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,410 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-08-03 21:35:21,416 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,524 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,532 [INFO] DbMcusAds:52 - JSON generation date=Tue Mar 07 09:50:55 CET 2023 (1678179055114)
+2023-08-03 21:35:21,533 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,561 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-08-03 21:35:21,665 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,667 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,667 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,667 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-08-03 21:35:21,668 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-08-03 21:35:21,701 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-08-03 21:35:21,704 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-08-03 21:35:21,723 [INFO] ApplicationProperties:181 - Using Application install path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-08-03 21:35:21,941 [INFO] MainUpdater:2800 - connection check result : 10
+2023-08-03 21:35:21,941 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-08-03 21:35:21,960 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-08-03 21:35:22,165 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-08-03 21:35:22,172 [INFO] MainUpdater:2800 - connection check result : 10
+2023-08-03 21:35:22,173 [INFO] MainUpdater:2800 - connection check result : 10
+2023-08-03 21:35:22,231 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-08-03 21:35:22,232 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-08-03 21:35:22,233 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-08-03 21:35:23,549 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.2.0
+2023-08-03 21:35:23,559 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-08-03 21:35:23,623 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.2.0
+2023-08-03 21:35:23,829 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-08-03 21:35:23,839 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.1.0
+2023-08-03 21:35:24,002 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.19.1
+2023-08-03 21:35:24,117 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.2
+2023-08-03 21:35:24,122 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.1
+2023-08-03 21:35:24,127 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2023-08-03 21:35:24,142 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-08-03 21:35:24,146 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.2
+2023-08-03 21:35:24,152 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.2
+2023-08-03 21:35:24,162 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.1.0
+2023-08-03 21:35:24,178 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-08-03 21:35:24,189 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.0
+2023-08-03 21:35:24,266 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.3.0
+2023-08-03 21:35:24,417 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.2.0
+2023-08-03 21:35:24,454 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-08-03 21:35:24,456 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-08-03 21:35:24,456 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-08-03 21:35:24,456 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-08-03 21:35:24,456 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-08-03 21:35:24,459 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.2.0.0
+2023-08-03 21:35:24,468 [WARN] PackLoader:242 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-08-03 21:35:24,471 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-08-03 21:35:24,477 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-08-03 21:35:24,528 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-08-03 21:35:24,539 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.0.0
+2023-08-03 21:35:24,554 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2023-08-03 21:35:24,560 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2023-08-03 21:35:24,562 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.0
+2023-08-03 21:35:24,564 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-08-03 21:35:24,595 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2023-08-03 21:35:24,785 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-08-03 21:35:24,800 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-08-03 21:35:24,812 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-08-03 21:35:24,817 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-08-03 21:35:24,855 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2023-08-03 21:35:24,896 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.1.0
+2023-08-03 21:35:24,901 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-08-03 21:35:24,905 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-08-03 21:35:24,909 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.2
+2023-08-03 21:35:24,911 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2023-08-03 21:35:24,952 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2023-08-03 21:35:25,212 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-08-03 21:35:25,271 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.0
+2023-08-03 21:35:25,310 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.0.0
+2023-08-03 21:35:25,314 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.5.0.0
+2023-08-03 21:35:25,330 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-08-03 21:35:25,349 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-08-03 21:35:25,359 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.2.0
+2023-08-03 21:35:25,402 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2023-08-03 21:35:25,571 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-08-03 21:35:25,576 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-08-03 21:35:25,580 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.5
+2023-08-03 21:35:25,584 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.4
+2023-08-03 21:35:25,597 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,597 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,599 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-08-03 21:35:25,601 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,601 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,601 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,602 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,602 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-08-03 21:35:25,605 [ERROR] Engine:467 - STMicroelectronics.X-CUBE-AI.7.2.0: Software pack already exists
+2023-08-03 21:35:25,608 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2023-08-03 21:35:25,619 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.0.0
+2023-08-03 21:35:25,623 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.4
+2023-08-03 21:35:25,624 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.0
+2023-08-03 21:35:25,627 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.1
+2023-08-03 21:35:25,630 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-08-03 21:35:25,634 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-08-03 21:35:25,637 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.6.0.0
+2023-08-03 21:35:25,658 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.0.0
+2023-08-03 21:35:25,677 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-08-03 21:35:25,678 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.2.0.0
+2023-08-03 21:35:25,679 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-08-03 21:35:25,680 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-08-03 21:35:25,680 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-08-03 21:35:25,685 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-08-03 21:35:25,688 [ERROR] Engine:467 - STMicroelectronics.X-CUBE-AI.7.2.0: Software pack already exists
+2023-08-03 21:35:25,701 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-08-03 21:35:25,707 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-08-03 21:35:25,712 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-08-03 21:35:25,715 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2023-08-03 21:35:25,719 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.0
+2023-08-03 21:35:25,722 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-08-03 21:35:25,727 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.0.0
+2023-08-03 21:35:25,753 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-08-03 21:35:25,757 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.1
+2023-08-03 21:35:25,763 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-08-03 21:35:25,775 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.1
+2023-08-03 21:35:25,795 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2023-08-03 21:35:25,801 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-08-03 21:35:25,818 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-08-03 21:35:25,820 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.0
+2023-08-03 21:35:25,828 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-08-03 21:35:25,844 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-08-03 21:35:25,857 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.0.0
+2023-08-03 21:35:25,866 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-08-03 21:35:25,870 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-08-03 21:35:25,873 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-08-03 21:35:25,875 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.0.0
+2023-08-03 21:35:25,896 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-08-03 21:35:25,905 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2023-08-03 21:35:25,909 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2023-08-03 21:35:25,913 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2023-08-03 21:35:25,917 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-08-03 21:35:25,918 [INFO] ThirdParty:947 - Integrity check success = true
+2023-08-03 21:35:25,918 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-08-03 21:35:25,918 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-08-03 21:35:25,918 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-08-03 21:35:25,920 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-08-03 21:35:25,925 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-08-03 21:35:25,931 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 183050536 Bytes (268435456)
+2023-08-03 21:35:25,932 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-08-03 21:35:25,933 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-08-03 21:35:25,933 [INFO] OpenFileManager:307 - Change cursor
+2023-08-03 21:35:25,962 [INFO] Mcu:1925 - Initializing MCU STM32L431R(B-C)Tx STM32L431RCTx STM32L431RCT6
+2023-08-03 21:35:27,038 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-08-03 21:35:27,727 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-08-03 21:35:27,727 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-08-03 21:35:27,727 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-08-03 21:35:27,727 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-08-03 21:35:27,728 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-08-03 21:35:27,740 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,740 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,741 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,742 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-08-03 21:35:27,991 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-08-03 21:35:29,586 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-08-03 21:35:29,653 [INFO] RtosManager:802 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2023-08-03 21:35:29,655 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (CommonPathInternal) has invalid value (null|null|null|null)
+2023-08-03 21:35:29,666 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-08-03 21:35:29,843 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 249916264 Bytes (343932928)
+2023-08-03 21:35:29,913 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (/home/carlos/.stmcufinder/plugins/mcufinder/mcu/cube-finder-db.db)
+2023-08-03 21:35:29,946 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-08-03 21:35:29,946 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-08-03 21:35:29,946 [INFO] ApiDb:669 - CubeFinder database generation date=2023-03-10 (1678456172)
+2023-08-03 21:35:29,946 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V3.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.5.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-08-03 21:35:31,427 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-08-03 21:35:31,430 [INFO] DbMcus:215 - Found 3680 MCUs, 3680 are supported
+2023-08-03 21:35:31,433 [INFO] ApiDb:422 - Load user favorites file /home/carlos/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-08-03 21:35:31,433 [INFO] ApiDb:426 - User favorites MCUs=[STM32F446RET6]
+2023-08-03 21:35:31,433 [INFO] DbMcus:221 - Set 1 / 1 favorites MCUs
+2023-08-03 21:35:31,698 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-08-03 21:35:31,699 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.2.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.2.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.19.1
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :ARM CMSIS 5.7.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2023-08-03 21:35:31,699 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2023-08-03 21:35:31,700 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-08-03 21:35:31,701 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :ARM CMSIS 5.8.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.0.0
+2023-08-03 21:35:31,702 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-08-03 21:35:32,039 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-08-03 21:35:32,041 [INFO] PinOutPanel:1477 - setPackage(STM32L431RCTx,LQFP64)
+2023-08-03 21:35:32,553 [INFO] UtilMem:74 - Before build in PCC Used Memory: 215875840 Bytes (343932928)
+2023-08-03 21:35:33,212 [INFO] UtilMem:74 - After build in PCC Used Memory: 248259832 Bytes (343932928)
+2023-08-03 21:35:33,277 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-08-03 21:35:33,295 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,295 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,295 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,295 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,296 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,297 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,298 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,299 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,299 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,299 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,299 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,299 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,299 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,300 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-08-03 21:35:33,341 [WARN] FreeRTOS:1022 - Null or empty value: should not occur! (nothing added to the table)
+2023-08-03 21:35:33,503 [INFO] CADModel:164 - CPN selected for project levelSTM32L431RCT6
+2023-08-03 21:35:33,503 [INFO] CADModel:113 - Register for checkConnection events
+2023-08-03 21:35:33,505 [INFO] RtosManager:615 - Active RTOS found at IOC load: FREERTOS [Cortex-M4NS]
+2023-08-03 21:35:33,546 [INFO] OpenFileManager:327 - Restore cursor
+2023-08-03 21:35:57,138 [INFO] I2cTimingTraitement:329 - 0x20C0EDFF
+2023-08-03 21:35:57,202 [INFO] I2cTimingTraitement:329 - 0x20C0EDFF
+2023-08-03 21:36:06,347 [INFO] I2cTimingTraitement:329 - 0x10909CEC
+2023-08-03 21:36:06,393 [INFO] I2cTimingTraitement:329 - 0x10909CEC
+2023-08-03 21:36:19,019 [INFO] I2cTimingTraitement:329 - 0x10909CEC
+2023-08-03 21:36:19,029 [INFO] I2cTimingTraitement:329 - 0x10909CEC
+2023-08-03 21:37:37,592 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 244788304 Bytes (401604608)
+2023-08-03 21:37:37,697 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 259468368 Bytes (401604608)
+2023-08-03 21:37:38,322 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 297743440 Bytes (401604608)
+2023-08-03 21:37:38,890 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-08-03 21:37:38,890 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-08-03 21:37:38,890 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-08-03 21:37:38,890 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 21:37:38,890 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 21:37:38,890 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2023-08-03 21:37:38,891 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-08-03 21:37:38,891 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-08-03 21:37:38,891 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-08-03 21:37:38,892 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-08-03 21:37:38,892 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 21:37:38,892 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 21:37:38,893 [INFO] CodeGenerator:692 - code generatio: config db path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-08-03 21:37:39,330 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp_save
+2023-08-03 21:37:39,681 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp
+2023-08-03 21:37:39,775 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp_save
+2023-08-03 21:37:39,882 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp
+2023-08-03 21:37:40,678 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 21:37:40,681 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 21:37:40,752 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 21:37:40,754 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 21:37:40,828 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 21:37:40,830 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 21:37:40,890 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 21:37:40,892 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 21:37:40,955 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 21:37:40,956 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 21:37:41,021 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 21:37:41,022 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 21:37:41,089 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 21:37:41,090 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 21:37:41,162 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 21:37:41,164 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 21:37:41,226 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 21:37:41,228 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 21:37:41,293 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 21:37:41,300 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 21:37:41,302 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 21:37:41,363 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 21:37:41,364 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 21:37:41,422 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 21:37:41,423 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 21:37:41,483 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 21:37:41,484 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 21:37:41,545 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 21:37:41,546 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 21:37:41,605 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 21:37:41,606 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 21:37:41,662 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 21:37:41,663 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 21:37:41,720 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 21:37:41,722 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 21:37:41,784 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 21:37:41,785 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 21:37:41,853 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 21:37:41,854 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h_save
+2023-08-03 21:37:41,928 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h
+2023-08-03 21:37:41,930 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c_save
+2023-08-03 21:37:42,012 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c
+2023-08-03 21:37:42,019 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c_save
+2023-08-03 21:37:42,101 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c
+2023-08-03 21:37:42,102 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h_save
+2023-08-03 21:37:42,167 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h
+2023-08-03 21:37:42,173 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c_save
+2023-08-03 21:37:42,318 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c
+2023-08-03 21:37:42,320 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp_save
+2023-08-03 21:37:42,385 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp
+2023-08-03 21:37:42,386 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c_save
+2023-08-03 21:37:42,454 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c
+2023-08-03 21:37:42,457 [INFO] CodeEngine:303 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-08-03 21:37:42,528 [INFO] CodeEngine:327 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h
+2023-08-03 21:37:42,556 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-08-03 21:37:42,557 [WARN] CodeGenerator:3583 - IP not found : null
+2023-08-03 21:37:42,559 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h_save
+2023-08-03 21:37:42,628 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h
+2023-08-03 21:37:42,629 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c_save
+2023-08-03 21:37:42,799 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c
+2023-08-03 21:37:43,437 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 112mS.
+2023-08-03 21:37:43,446 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-08-03 21:37:43,820 [INFO] ConfigFileManager:1396 - The Die is : DIE435
+2023-08-03 21:37:43,836 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-08-03 21:37:43,850 [INFO] ApiDbMcu:505 - Load IP Config File for TOUCHSENSING
+2023-08-03 21:37:45,310 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1864mS.
+2023-08-03 21:37:45,311 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 21:37:45,312 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 21:37:55,740 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-08-03 21:38:04,847 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-08-03 21:38:04,847 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-08-03 21:38:04,848 [WARN] TasksAndQueuesTab:774 - max value is: 750.0
+2023-08-03 21:38:07,159 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 64
+2023-08-03 21:38:07,191 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 16384
+2023-08-03 21:38:28,319 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-08-03 21:38:28,320 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-08-03 21:38:28,320 [WARN] TasksAndQueuesTab:774 - max value is: 750.0
+2023-08-03 21:38:28,320 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-08-03 21:38:28,320 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-08-03 21:38:28,320 [WARN] TasksAndQueuesTab:774 - max value is: 750.0
+2023-08-03 21:38:32,474 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 518960176 Bytes (751828992)
+2023-08-03 21:38:32,590 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 534166576 Bytes (751828992)
+2023-08-03 21:38:33,088 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 565623856 Bytes (751828992)
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2023-08-03 21:38:33,379 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-08-03 21:38:33,380 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-08-03 21:38:33,380 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-08-03 21:38:33,380 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-08-03 21:38:33,380 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 21:38:33,380 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 21:38:33,380 [INFO] CodeGenerator:692 - code generatio: config db path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-08-03 21:38:33,649 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp_save
+2023-08-03 21:38:33,731 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp
+2023-08-03 21:38:33,785 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp_save
+2023-08-03 21:38:33,879 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp
+2023-08-03 21:38:34,456 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 21:38:34,458 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 21:38:34,518 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 21:38:34,519 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 21:38:34,573 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 21:38:34,574 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 21:38:34,623 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 21:38:34,624 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 21:38:34,674 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 21:38:34,675 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 21:38:34,734 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 21:38:34,735 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 21:38:34,790 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 21:38:34,791 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 21:38:34,850 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 21:38:34,851 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 21:38:34,900 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 21:38:34,901 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 21:38:34,953 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 21:38:34,958 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 21:38:34,960 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 21:38:35,021 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 21:38:35,023 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 21:38:35,079 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 21:38:35,080 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 21:38:35,137 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 21:38:35,138 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 21:38:35,187 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 21:38:35,188 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 21:38:35,238 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 21:38:35,239 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 21:38:35,287 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 21:38:35,287 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 21:38:35,337 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 21:38:35,338 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 21:38:35,386 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 21:38:35,387 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 21:38:35,434 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 21:38:35,435 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h_save
+2023-08-03 21:38:35,496 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h
+2023-08-03 21:38:35,497 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c_save
+2023-08-03 21:38:35,550 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c
+2023-08-03 21:38:35,556 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c_save
+2023-08-03 21:38:35,613 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c
+2023-08-03 21:38:35,614 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h_save
+2023-08-03 21:38:35,664 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h
+2023-08-03 21:38:35,667 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c_save
+2023-08-03 21:38:35,766 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c
+2023-08-03 21:38:35,767 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp_save
+2023-08-03 21:38:35,819 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp
+2023-08-03 21:38:35,820 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c_save
+2023-08-03 21:38:35,875 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c
+2023-08-03 21:38:35,877 [INFO] CodeEngine:303 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-08-03 21:38:35,930 [INFO] CodeEngine:327 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h
+2023-08-03 21:38:35,945 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-08-03 21:38:35,946 [WARN] CodeGenerator:3583 - IP not found : null
+2023-08-03 21:38:35,949 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h_save
+2023-08-03 21:38:36,011 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h
+2023-08-03 21:38:36,012 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c_save
+2023-08-03 21:38:36,193 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c
+2023-08-03 21:38:36,626 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 35mS.
+2023-08-03 21:38:36,628 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-08-03 21:38:36,976 [INFO] ConfigFileManager:1396 - The Die is : DIE435
+2023-08-03 21:38:37,881 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1253mS.
+2023-08-03 21:38:37,881 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 21:38:37,882 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 21:44:31,066 [INFO] Gpio:272 - dependency for GPIO [ADC1, I2C1, I2C2, RCC, SPI1, SYS, TIM2, USART1, USART3]
+2023-08-03 21:45:41,170 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 655573168 Bytes (836763648)
+2023-08-03 21:45:41,272 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 669730992 Bytes (836763648)
+2023-08-03 21:45:41,812 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 538859888 Bytes (836763648)
+2023-08-03 21:45:42,010 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-08-03 21:45:42,010 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-08-03 21:45:42,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-08-03 21:45:42,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 21:45:42,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 21:45:42,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2023-08-03 21:45:42,011 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-08-03 21:45:42,012 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-08-03 21:45:42,012 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-08-03 21:45:42,012 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-08-03 21:45:42,012 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 21:45:42,013 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 21:45:42,013 [INFO] CodeGenerator:692 - code generatio: config db path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-08-03 21:45:42,259 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp_save
+2023-08-03 21:45:42,369 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp
+2023-08-03 21:45:42,435 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp_save
+2023-08-03 21:45:42,548 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp
+2023-08-03 21:45:43,154 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 21:45:43,156 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 21:45:43,203 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 21:45:43,204 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 21:45:43,251 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 21:45:43,252 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 21:45:43,304 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 21:45:43,305 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 21:45:43,353 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 21:45:43,354 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 21:45:43,404 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 21:45:43,405 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 21:45:43,456 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 21:45:43,457 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 21:45:43,507 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 21:45:43,508 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 21:45:43,556 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 21:45:43,557 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 21:45:43,607 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 21:45:43,613 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 21:45:43,615 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 21:45:43,674 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 21:45:43,676 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 21:45:43,734 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 21:45:43,735 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 21:45:43,782 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 21:45:43,783 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 21:45:43,833 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 21:45:43,834 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 21:45:43,890 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 21:45:43,891 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 21:45:43,940 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 21:45:43,942 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 21:45:43,992 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 21:45:43,993 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 21:45:44,055 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 21:45:44,056 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 21:45:44,108 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 21:45:44,109 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h_save
+2023-08-03 21:45:44,167 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h
+2023-08-03 21:45:44,169 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c_save
+2023-08-03 21:45:44,229 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c
+2023-08-03 21:45:44,235 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c_save
+2023-08-03 21:45:44,296 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c
+2023-08-03 21:45:44,297 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h_save
+2023-08-03 21:45:44,344 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h
+2023-08-03 21:45:44,347 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c_save
+2023-08-03 21:45:44,428 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c
+2023-08-03 21:45:44,429 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp_save
+2023-08-03 21:45:44,482 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp
+2023-08-03 21:45:44,483 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c_save
+2023-08-03 21:45:44,534 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c
+2023-08-03 21:45:44,535 [INFO] CodeEngine:303 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-08-03 21:45:44,589 [INFO] CodeEngine:327 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h
+2023-08-03 21:45:44,607 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-08-03 21:45:44,608 [WARN] CodeGenerator:3583 - IP not found : null
+2023-08-03 21:45:44,609 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h_save
+2023-08-03 21:45:44,659 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h
+2023-08-03 21:45:44,660 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c_save
+2023-08-03 21:45:44,789 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c
+2023-08-03 21:45:45,197 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 91mS.
+2023-08-03 21:45:45,201 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-08-03 21:45:45,446 [INFO] ConfigFileManager:1396 - The Die is : DIE435
+2023-08-03 21:45:46,356 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1155mS.
+2023-08-03 21:45:46,356 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 21:45:46,357 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 22:32:24,735 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 372450304 Bytes (884998144)
+2023-08-03 22:32:24,830 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 386604032 Bytes (884998144)
+2023-08-03 22:32:25,369 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 421207040 Bytes (884998144)
+2023-08-03 22:32:25,530 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-08-03 22:32:25,530 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-08-03 22:32:25,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-08-03 22:32:25,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 22:32:25,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 22:32:25,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2023-08-03 22:32:25,531 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-08-03 22:32:25,532 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-08-03 22:32:25,532 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-08-03 22:32:25,532 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-08-03 22:32:25,532 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 22:32:25,532 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 22:32:25,533 [INFO] CodeGenerator:692 - code generatio: config db path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-08-03 22:32:25,698 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp_save
+2023-08-03 22:32:25,787 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp
+2023-08-03 22:32:25,835 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp_save
+2023-08-03 22:32:25,900 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp
+2023-08-03 22:32:26,474 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 22:32:26,476 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 22:32:26,525 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 22:32:26,526 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 22:32:26,575 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 22:32:26,576 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 22:32:26,632 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 22:32:26,633 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 22:32:26,682 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 22:32:26,683 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 22:32:26,736 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 22:32:26,737 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 22:32:26,783 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 22:32:26,784 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 22:32:26,836 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 22:32:26,837 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 22:32:26,884 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 22:32:26,885 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 22:32:26,933 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 22:32:26,937 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 22:32:26,939 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 22:32:26,986 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 22:32:26,987 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 22:32:27,038 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 22:32:27,039 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 22:32:27,091 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 22:32:27,092 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 22:32:27,139 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 22:32:27,140 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 22:32:27,199 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 22:32:27,200 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 22:32:27,252 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 22:32:27,253 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 22:32:27,311 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 22:32:27,313 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 22:32:27,362 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 22:32:27,363 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 22:32:27,413 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 22:32:27,415 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h_save
+2023-08-03 22:32:27,481 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h
+2023-08-03 22:32:27,483 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c_save
+2023-08-03 22:32:27,537 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c
+2023-08-03 22:32:27,543 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c_save
+2023-08-03 22:32:27,682 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c
+2023-08-03 22:32:27,684 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h_save
+2023-08-03 22:32:27,741 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h
+2023-08-03 22:32:27,744 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c_save
+2023-08-03 22:32:27,905 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c
+2023-08-03 22:32:27,907 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp_save
+2023-08-03 22:32:27,959 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp
+2023-08-03 22:32:27,960 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c_save
+2023-08-03 22:32:28,021 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c
+2023-08-03 22:32:28,024 [INFO] CodeEngine:303 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-08-03 22:32:28,076 [INFO] CodeEngine:327 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h
+2023-08-03 22:32:28,096 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-08-03 22:32:28,097 [WARN] CodeGenerator:3583 - IP not found : null
+2023-08-03 22:32:28,100 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h_save
+2023-08-03 22:32:28,163 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h
+2023-08-03 22:32:28,165 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c_save
+2023-08-03 22:32:28,282 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c
+2023-08-03 22:32:28,751 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 107mS.
+2023-08-03 22:32:28,755 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-08-03 22:32:28,952 [INFO] ConfigFileManager:1396 - The Die is : DIE435
+2023-08-03 22:32:30,095 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1340mS.
+2023-08-03 22:32:30,095 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 22:32:30,096 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 22:37:27,687 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 557076992 Bytes (884998144)
+2023-08-03 22:37:27,779 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 570708480 Bytes (884998144)
+2023-08-03 22:37:28,259 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 643060224 Bytes (884998144)
+2023-08-03 22:37:28,459 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-08-03 22:37:28,459 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-08-03 22:37:28,459 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-08-03 22:37:28,459 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 22:37:28,460 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-08-03 22:37:28,460 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2023-08-03 22:37:28,460 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-08-03 22:37:28,461 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-08-03 22:37:28,461 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-08-03 22:37:28,461 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-08-03 22:37:28,461 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 22:37:28,461 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-08-03 22:37:28,462 [INFO] CodeGenerator:692 - code generatio: config db path: /home/carlos/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-08-03 22:37:28,645 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp_save
+2023-08-03 22:37:28,697 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/license.tmp
+2023-08-03 22:37:28,740 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp_save
+2023-08-03 22:37:28,799 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/gpio.tmp
+2023-08-03 22:37:29,313 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 22:37:29,315 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 22:37:29,362 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 22:37:29,363 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 22:37:29,410 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 22:37:29,411 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 22:37:29,458 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 22:37:29,459 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 22:37:29,512 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 22:37:29,512 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 22:37:29,561 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 22:37:29,562 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 22:37:29,608 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 22:37:29,609 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 22:37:29,657 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 22:37:29,658 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 22:37:29,712 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 22:37:29,712 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 22:37:29,763 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 22:37:29,767 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-08-03 22:37:29,768 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp_save
+2023-08-03 22:37:29,824 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_inc.tmp
+2023-08-03 22:37:29,826 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp_save
+2023-08-03 22:37:29,888 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelInit.tmp
+2023-08-03 22:37:29,889 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-08-03 22:37:29,934 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_kernelStart.tmp
+2023-08-03 22:37:29,935 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp_save
+2023-08-03 22:37:29,982 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_typedefs.tmp
+2023-08-03 22:37:29,983 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp_save
+2023-08-03 22:37:30,031 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_vars.tmp
+2023-08-03 22:37:30,032 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp_save
+2023-08-03 22:37:30,078 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_pfp.tmp
+2023-08-03 22:37:30,079 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-08-03 22:37:30,130 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_obj_creat.tmp
+2023-08-03 22:37:30,130 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp_save
+2023-08-03 22:37:30,177 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_default_thread.tmp
+2023-08-03 22:37:30,178 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp_save
+2023-08-03 22:37:30,224 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/rtos_threads.tmp
+2023-08-03 22:37:30,225 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h_save
+2023-08-03 22:37:30,289 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/FreeRTOSConfig.h
+2023-08-03 22:37:30,291 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c_save
+2023-08-03 22:37:30,349 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/freertos.c
+2023-08-03 22:37:30,354 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c_save
+2023-08-03 22:37:30,408 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_it.c
+2023-08-03 22:37:30,409 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h_save
+2023-08-03 22:37:30,472 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_it.h
+2023-08-03 22:37:30,524 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c_save
+2023-08-03 22:37:30,619 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_msp.c
+2023-08-03 22:37:30,620 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp_save
+2023-08-03 22:37:30,666 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/MXTmpFiles/system.tmp
+2023-08-03 22:37:30,667 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c_save
+2023-08-03 22:37:30,724 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/stm32l4xx_hal_timebase_tim.c
+2023-08-03 22:37:30,725 [INFO] CodeEngine:303 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-08-03 22:37:30,799 [INFO] CodeEngine:327 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/stm32l4xx_hal_conf.h
+2023-08-03 22:37:30,811 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-08-03 22:37:30,811 [WARN] CodeGenerator:3583 - IP not found : null
+2023-08-03 22:37:30,813 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h_save
+2023-08-03 22:37:30,872 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Inc/main.h
+2023-08-03 22:37:30,873 [INFO] CodeEngine:247 - oldGeneratedFile, /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c_save
+2023-08-03 22:37:30,977 [INFO] CodeEngine:271 - Generated code: /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/EPS_Firmware/Core/Src/main.c
+2023-08-03 22:37:31,365 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 48mS.
+2023-08-03 22:37:31,367 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-08-03 22:37:31,563 [INFO] ConfigFileManager:1396 - The Die is : DIE435
+2023-08-03 22:37:32,617 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1250mS.
+2023-08-03 22:37:32,617 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 22:37:32,618 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-08-03 22:58:46,599 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-08-03 22:58:47,776 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
+2023-08-03 22:58:47,783 [INFO] WebAppUi:462 - Profiles folder deleted
+2023-08-03 22:58:48,300 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
