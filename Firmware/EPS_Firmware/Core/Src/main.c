@@ -22,6 +22,15 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "EPS_FYCUS.h"
+#include "LTC4162.h"
+#include "LTC4162-LAD_reg_defs.h"
+#include"LTC4162-LAD_formats.h"
+#include "bus_packet.h"
+#include <stdbool.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /* USER CODE END Includes */
 
@@ -40,7 +49,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-ADC_HandleTypeDef hadc1;
+CRC_HandleTypeDef hcrc;
 
 I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
@@ -49,24 +58,33 @@ SPI_HandleTypeDef hspi1;
 
 TIM_HandleTypeDef htim2;
 
-UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart3;
 
-/* Definitions for defaultTask */
-osThreadId_t defaultTaskHandle;
-const osThreadAttr_t defaultTask_attributes = {
-  .name = "defaultTask",
-  .stack_size = 128 * 4,
+/* Definitions for MPPT_IC */
+osThreadId_t MPPT_ICHandle;
+const osThreadAttr_t MPPT_IC_attributes = {
+  .name = "MPPT_IC",
+  .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
-/* Definitions for Blinky */
-osThreadId_t BlinkyHandle;
-const osThreadAttr_t Blinky_attributes = {
-  .name = "Blinky",
+/* Definitions for ReportStatus */
+osThreadId_t ReportStatusHandle;
+const osThreadAttr_t ReportStatus_attributes = {
+  .name = "ReportStatus",
+  .stack_size = 1024 * 4,
+  .priority = (osPriority_t) osPriorityLow,
+};
+/* Definitions for PowerRails */
+osThreadId_t PowerRailsHandle;
+const osThreadAttr_t PowerRails_attributes = {
+  .name = "PowerRails",
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
 /* USER CODE BEGIN PV */
+static EPS_Telemetry telemetry;
+static uint8_t buf[4];
+
 
 /* USER CODE END PV */
 
@@ -75,13 +93,13 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_I2C2_Init(void);
-static void MX_ADC1_Init(void);
-static void MX_USART1_UART_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_USART3_UART_Init(void);
-void StartDefaultTask(void *argument);
-void Prv_Blinky(void *argument);
+static void MX_CRC_Init(void);
+void prvMonitorMPPT(void *argument);
+void prvSendTelemetry(void *argument);
+void prvPowerManagement(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -122,11 +140,10 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   MX_I2C2_Init();
-  MX_ADC1_Init();
-  MX_USART1_UART_Init();
   MX_TIM2_Init();
   MX_SPI1_Init();
   MX_USART3_UART_Init();
+  MX_CRC_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -151,11 +168,14 @@ int main(void)
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
-  /* creation of defaultTask */
-  defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+  /* creation of MPPT_IC */
+  MPPT_ICHandle = osThreadNew(prvMonitorMPPT, NULL, &MPPT_IC_attributes);
 
-  /* creation of Blinky */
-  BlinkyHandle = osThreadNew(Prv_Blinky, NULL, &Blinky_attributes);
+  /* creation of ReportStatus */
+  ReportStatusHandle = osThreadNew(prvSendTelemetry, NULL, &ReportStatus_attributes);
+
+  /* creation of PowerRails */
+  PowerRailsHandle = osThreadNew(prvPowerManagement, NULL, &PowerRails_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -229,60 +249,33 @@ void SystemClock_Config(void)
 }
 
 /**
-  * @brief ADC1 Initialization Function
+  * @brief CRC Initialization Function
   * @param None
   * @retval None
   */
-static void MX_ADC1_Init(void)
+static void MX_CRC_Init(void)
 {
 
-  /* USER CODE BEGIN ADC1_Init 0 */
+  /* USER CODE BEGIN CRC_Init 0 */
 
-  /* USER CODE END ADC1_Init 0 */
+  /* USER CODE END CRC_Init 0 */
 
-  ADC_ChannelConfTypeDef sConfig = {0};
+  /* USER CODE BEGIN CRC_Init 1 */
 
-  /* USER CODE BEGIN ADC1_Init 1 */
-
-  /* USER CODE END ADC1_Init 1 */
-
-  /** Common config
-  */
-  hadc1.Instance = ADC1;
-  hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV1;
-  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
-  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
-  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
-  hadc1.Init.LowPowerAutoWait = DISABLE;
-  hadc1.Init.ContinuousConvMode = DISABLE;
-  hadc1.Init.NbrOfConversion = 1;
-  hadc1.Init.DiscontinuousConvMode = DISABLE;
-  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
-  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
-  hadc1.Init.DMAContinuousRequests = DISABLE;
-  hadc1.Init.Overrun = ADC_OVR_DATA_PRESERVED;
-  hadc1.Init.OversamplingMode = DISABLE;
-  if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  /* USER CODE END CRC_Init 1 */
+  hcrc.Instance = CRC;
+  hcrc.Init.DefaultPolynomialUse = DEFAULT_POLYNOMIAL_ENABLE;
+  hcrc.Init.DefaultInitValueUse = DEFAULT_INIT_VALUE_ENABLE;
+  hcrc.Init.InputDataInversionMode = CRC_INPUTDATA_INVERSION_NONE;
+  hcrc.Init.OutputDataInversionMode = CRC_OUTPUTDATA_INVERSION_DISABLE;
+  hcrc.InputDataFormat = CRC_INPUTDATA_FORMAT_BYTES;
+  if (HAL_CRC_Init(&hcrc) != HAL_OK)
   {
     Error_Handler();
   }
+  /* USER CODE BEGIN CRC_Init 2 */
 
-  /** Configure Regular Channel
-  */
-  sConfig.Channel = ADC_CHANNEL_11;
-  sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
-  sConfig.SingleDiff = ADC_SINGLE_ENDED;
-  sConfig.OffsetNumber = ADC_OFFSET_NONE;
-  sConfig.Offset = 0;
-  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN ADC1_Init 2 */
-
-  /* USER CODE END ADC1_Init 2 */
+  /* USER CODE END CRC_Init 2 */
 
 }
 
@@ -476,41 +469,6 @@ static void MX_TIM2_Init(void)
 }
 
 /**
-  * @brief USART1 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_USART1_UART_Init(void)
-{
-
-  /* USER CODE BEGIN USART1_Init 0 */
-
-  /* USER CODE END USART1_Init 0 */
-
-  /* USER CODE BEGIN USART1_Init 1 */
-
-  /* USER CODE END USART1_Init 1 */
-  huart1.Instance = USART1;
-  huart1.Init.BaudRate = 115200;
-  huart1.Init.WordLength = UART_WORDLENGTH_8B;
-  huart1.Init.StopBits = UART_STOPBITS_1;
-  huart1.Init.Parity = UART_PARITY_NONE;
-  huart1.Init.Mode = UART_MODE_TX_RX;
-  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
-  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&huart1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USART1_Init 2 */
-
-  /* USER CODE END USART1_Init 2 */
-
-}
-
-/**
   * @brief USART3 Initialization Function
   * @param None
   * @retval None
@@ -526,7 +484,7 @@ static void MX_USART3_UART_Init(void)
 
   /* USER CODE END USART3_Init 1 */
   huart3.Instance = USART3;
-  huart3.Init.BaudRate = 115200;
+  huart3.Init.BaudRate = 460800;
   huart3.Init.WordLength = UART_WORDLENGTH_8B;
   huart3.Init.StopBits = UART_STOPBITS_1;
   huart3.Init.Parity = UART_PARITY_NONE;
@@ -561,16 +519,22 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, LED_R_Pin|LED_G_Pin|LED_YL_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOC, LED_R_Pin|LED_G_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pins : PC13 PC14 EN_5V_Pin */
-  GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14|EN_5V_Pin;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, LED_YL_Pin|EN_5V_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(EN_3V3_GPIO_Port, EN_3V3_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : PC13 PC14 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LED_R_Pin LED_G_Pin LED_YL_Pin */
-  GPIO_InitStruct.Pin = LED_R_Pin|LED_G_Pin|LED_YL_Pin;
+  /*Configure GPIO pins : LED_R_Pin LED_G_Pin LED_YL_Pin EN_5V_Pin */
+  GPIO_InitStruct.Pin = LED_R_Pin|LED_G_Pin|LED_YL_Pin|EN_5V_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -584,62 +548,129 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : EN_3V3_Pin */
   GPIO_InitStruct.Pin = EN_3V3_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(EN_3V3_GPIO_Port, &GPIO_InitStruct);
 
 }
 
 /* USER CODE BEGIN 4 */
 
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+//	osThreadFlagsSet(ReportStatusHandle, 0x1U);
+	HAL_UARTEx_ReceiveToIdle_IT(&huart3, (uint8_t *)buf, 4);
+}
+
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+{
+	osThreadFlagsSet(ReportStatusHandle, 0x2U);
+}
+
 /* USER CODE END 4 */
 
-/* USER CODE BEGIN Header_StartDefaultTask */
+/* USER CODE BEGIN Header_prvMonitorMPPT */
 /**
-  * @brief  Function implementing the defaultTask thread.
+  * @brief  Function implementing the MPPT_IC thread. In charge of configuring, and monitoring
+  * the MPPT IC - LTC4162
   * @param  argument: Not used
   * @retval None
   */
-/* USER CODE END Header_StartDefaultTask */
-void StartDefaultTask(void *argument)
+/* USER CODE END Header_prvMonitorMPPT */
+void prvMonitorMPPT(void *argument)
 {
   /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
+
+	LTC4162_Init(&hi2c2);
+
+	/* Infinite loop */
+	for(;;)
+	{
+		HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
+
+		LTC4162_GetReg(LTC4162_VIN, &telemetry.v_in);
+
+		LTC4162_GetReg(LTC4162_VOUT, &telemetry.v_out);
+
+		LTC4162_GetReg(LTC4162_VBAT, &telemetry.v_bat);
+
+		LTC4162_GetReg(LTC4162_IBAT, &telemetry.i_bat);
+
+		LTC4162_GetReg(LTC4162_IIN, &telemetry.i_in);
+
+		LTC4162_GetReg(LTC4162_DIE_TEMP, &telemetry.die_temp);
+
+		LTC4162_GetReg(LTC4162_THERMISTOR_VOLTAGE, &telemetry.thermistor_voltage);
+
+		LTC4162_GetReg(LTC4162_BSR, &telemetry.bsr);
+
+		LTC4162_GetReg(LTC4162_CHARGER_STATE, &telemetry.charger_state);
+
+
+		osDelay(100);
+	}
   /* USER CODE END 5 */
 }
 
-/* USER CODE BEGIN Header_Prv_Blinky */
+/* USER CODE BEGIN Header_prvSendTelemetry */
 /**
-* @brief Function implementing the Blinky thread.
+* @brief Function implementing the ReportStatus thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_Prv_Blinky */
-void Prv_Blinky(void *argument)
+/* USER CODE END Header_prvSendTelemetry */
+void prvSendTelemetry(void *argument)
 {
-  /* USER CODE BEGIN Prv_Blinky */
-  /* Infinite loop */
-  for(;;)
-  {
-	  HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_RESET);
-	  osDelay(2000);
-	  HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
-	  for(int i = 0; i < 4; i++)
-	  {
-	  HAL_GPIO_WritePin(LED_YL_GPIO_Port, LED_YL_Pin, GPIO_PIN_RESET);
-	  osDelay(250);
-	  HAL_GPIO_WritePin(LED_YL_GPIO_Port, LED_YL_Pin, GPIO_PIN_SET);
-	  osDelay(250);
-	  }
-	  HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_RESET);
-	  osDelay(2000);
-	  HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_SET);
-  }
-  /* USER CODE END Prv_Blinky */
+  /* USER CODE BEGIN prvSendTelemetry */
+
+//	HAL_UARTEx_ReceiveToIdle_IT(&huart3, (uint8_t *)buf, 4);
+	static uint8_t buf[BUS_PACKET_BUS_SIZE];
+
+	bus_packet_CRC16CCSDSConfig();
+
+	memcpy(buf, BUS_PACKET_FRAME_SYNC, 4);
+
+	/* Infinite loop */
+	for(;;)
+	{
+		HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
+
+//		do {
+//			osThreadFlagsWait(0x1U, osFlagsWaitAll, osWaitForever);
+//		} while (buf != 0xDEAD);
+		bus_packet_EncodePacketize(BUS_PACKET_TYPE_TM, 0x40, BUS_PACKET_ECF_EXIST, (uint8_t *)&telemetry, sizeof(telemetry), buf + 4);
+
+		HAL_UART_Transmit(&huart3, buf, bus_packet_GetLength(buf + 4) + 4,1000);
+//		osThreadFlagsWait(0x2U, osFlagsWaitAny, osWaitForever);
+
+
+		osDelay(5000);
+	}
+  /* USER CODE END prvSendTelemetry */
+}
+
+/* USER CODE BEGIN Header_prvPowerManagement */
+/**
+* @brief Function implementing the PowerRails thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_prvPowerManagement */
+void prvPowerManagement(void *argument)
+{
+  /* USER CODE BEGIN prvPowerManagement */
+	/* Infinite loop */
+	for(;;)
+	{
+		HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
+
+		HAL_GPIO_WritePin(EN_3V3_GPIO_Port, EN_3V3_Pin, GPIO_PIN_SET);
+
+		osThreadSuspend(PowerRailsHandle);
+
+	}
+  /* USER CODE END prvPowerManagement */
 }
 
 /**
@@ -674,6 +705,8 @@ void Error_Handler(void)
   __disable_irq();
   while (1)
   {
+	  HAL_GPIO_TogglePin(LED_R_GPIO_Port, LED_R_Pin);
+	  HAL_Delay(250);
   }
   /* USER CODE END Error_Handler_Debug */
 }

@@ -1,482 +1,55 @@
-!SESSION 2023-03-24 20:45:35.186 -----------------------------------------------
+!SESSION 2023-09-29 13:16:29.181 -----------------------------------------------
 eclipse.buildId=Version 1.11.2
 java.version=11.0.16
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
+Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-24 20:45:39.052
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+This is a continuation of log file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.bak_0.log
+Created Time: 2023-09-29 13:38:10.509
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-24 20:45:39.123
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-03-24 20:45:39.400
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY org.eclipse.ui 4 4 2023-03-24 20:45:39.438
-!MESSAGE Unable to create part
-!STACK 1
-org.eclipse.ui.PartInitException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/main.c'.
-	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3192)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3203)
-	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
-	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.createElement(PartServiceImpl.java:1300)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1265)
-	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:397)
-	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:89)
-	at org.eclipse.ui.internal.WorkbenchPage.findView(WorkbenchPage.java:1949)
-	at com.st.stm32cube.ide.mcu.informationcenter.NewWelcomeInfoDetector.isNewContentAvailable(NewWelcomeInfoDetector.java:51)
-	at org.eclipse.ui.internal.WorkbenchIntroManager.isNewContentAvailable(WorkbenchIntroManager.java:297)
-	at org.eclipse.ui.application.WorkbenchWindowAdvisor.openIntro(WorkbenchWindowAdvisor.java:182)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.openIntro(IDEWorkbenchWindowAdvisor.java:573)
-	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:933)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
-	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1469)
-	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2472)
-	at org.eclipse.ui.internal.Workbench.getWorkbenchPage(Workbench.java:1943)
-	at org.eclipse.ui.internal.Workbench.setReference(Workbench.java:1988)
-	at org.eclipse.ui.internal.Workbench.lambda$10(Workbench.java:1879)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setContext(PartImpl.java:469)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:634)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
-	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
-	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
-	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/main.c'.
-	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
-	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:792)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:724)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4171)
-	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
-	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
-	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1445)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1409)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3161)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2290)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3178)
-	... 175 more
-!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2023-03-24 20:45:39.440
-!MESSAGE Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/main.c'.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/main.c'.
-	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
-	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:792)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:724)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4171)
-	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
-	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
-	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1445)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1409)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3161)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2290)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3178)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3203)
-	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
-	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.createElement(PartServiceImpl.java:1300)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1265)
-	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:397)
-	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:89)
-	at org.eclipse.ui.internal.WorkbenchPage.findView(WorkbenchPage.java:1949)
-	at com.st.stm32cube.ide.mcu.informationcenter.NewWelcomeInfoDetector.isNewContentAvailable(NewWelcomeInfoDetector.java:51)
-	at org.eclipse.ui.internal.WorkbenchIntroManager.isNewContentAvailable(WorkbenchIntroManager.java:297)
-	at org.eclipse.ui.application.WorkbenchWindowAdvisor.openIntro(WorkbenchWindowAdvisor.java:182)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.openIntro(IDEWorkbenchWindowAdvisor.java:573)
-	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:933)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
-	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1469)
-	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2472)
-	at org.eclipse.ui.internal.Workbench.getWorkbenchPage(Workbench.java:1943)
-	at org.eclipse.ui.internal.Workbench.setReference(Workbench.java:1988)
-	at org.eclipse.ui.internal.Workbench.lambda$10(Workbench.java:1879)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setContext(PartImpl.java:469)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:634)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
-	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
-	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
-	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
-	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2023-03-24 20:45:39.440
-!MESSAGE Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/main.c'.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-24 20:45:42.264
-!MESSAGE Started RMI Server, listening on port 41337
-
-!ENTRY org.eclipse.ui 4 4 2023-03-24 20:46:12.082
-!MESSAGE Unable to create part
-!STACK 1
-org.eclipse.ui.PartInitException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/freertos.c'.
-	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3192)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3203)
-	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
-	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$4(StackRenderer.java:975)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+!ENTRY org.eclipse.ui 4 0 2023-09-29 13:38:10.509
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.doEquals(ChildrenUpdate.java:213)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.equals(ViewerUpdateMonitor.java:256)
+	at java.base/java.util.LinkedList.remove(LinkedList.java:369)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.coalesce(TreeModelContentProvider.java:972)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.schedule(TreeModelContentProvider.java:956)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1191)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1307)
-	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
-	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
-	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
@@ -499,111 +72,46 @@ org.eclipse.ui.PartInitException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/freertos.c'.
-	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
-	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:792)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:724)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4171)
-	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
-	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
-	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1445)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1409)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3161)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3178)
-	... 83 more
-!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2023-03-24 20:46:12.083
-!MESSAGE Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/freertos.c'.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/freertos.c'.
-	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
-	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:792)
-	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
-	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:724)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4171)
-	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
-	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
-	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1445)
-	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1409)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3161)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3178)
-	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3203)
-	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
-	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$4(StackRenderer.java:975)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-09-29 13:38:10.509
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException: Input to viewer update should not be null
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.<init>(ViewerUpdateMonitor.java:90)
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.<init>(ChildrenUpdate.java:45)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1190)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1307)
-	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
-	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
-	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
@@ -626,373 +134,797 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/F411RE_FYCUS_
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2023-03-24 20:46:12.083
-!MESSAGE Cannot determine URI for '/F411RE_FYCUS_MOCKUP/Core/Src/freertos.c'.
 
-!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 20:53:15.522
-!MESSAGE Indexed 'EPS_Firmware' (21 sources, 82 headers) in 2.29 sec: 5,423 declarations; 30,886 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0055%)
-!SESSION 2023-03-27 00:18:05.909 -----------------------------------------------
+!ENTRY org.eclipse.ui 4 0 2023-09-29 13:38:10.510
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.doEquals(ChildrenUpdate.java:213)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.equals(ViewerUpdateMonitor.java:256)
+	at java.base/java.util.LinkedList.remove(LinkedList.java:369)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.coalesce(TreeModelContentProvider.java:972)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.schedule(TreeModelContentProvider.java:956)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1191)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-09-29 13:38:10.510
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException: Input to viewer update should not be null
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.<init>(ViewerUpdateMonitor.java:90)
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.<init>(ChildrenUpdate.java:45)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1190)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-09-29 13:38:10.510
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.doEquals(ChildrenUpdate.java:213)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.equals(ViewerUpdateMonitor.java:256)
+	at java.base/java.util.LinkedList.remove(LinkedList.java:369)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.coalesce(TreeModelContentProvider.java:972)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.schedule(TreeModelContentProvider.java:956)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1191)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-09-29 13:38:10.510
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException: Input to viewer update should not be null
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.<init>(ViewerUpdateMonitor.java:90)
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.<init>(ChildrenUpdate.java:45)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1190)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-09-29 13:38:10.511
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.doEquals(ChildrenUpdate.java:213)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.equals(ViewerUpdateMonitor.java:256)
+	at java.base/java.util.LinkedList.remove(LinkedList.java:369)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.coalesce(TreeModelContentProvider.java:972)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.schedule(TreeModelContentProvider.java:956)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1191)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-09-29 13:38:10.511
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException: Input to viewer update should not be null
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.<init>(ViewerUpdateMonitor.java:90)
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.<init>(ChildrenUpdate.java:45)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1190)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-09-29 13:38:10.511
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.doEquals(ChildrenUpdate.java:213)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.equals(ViewerUpdateMonitor.java:256)
+	at java.base/java.util.LinkedList.remove(LinkedList.java:369)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.coalesce(TreeModelContentProvider.java:972)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.schedule(TreeModelContentProvider.java:956)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1191)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-09-29 13:38:10.511
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException: Input to viewer update should not be null
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.<init>(ViewerUpdateMonitor.java:90)
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.<init>(ChildrenUpdate.java:45)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1190)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-09-29 13:38:10.511
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.doEquals(ChildrenUpdate.java:213)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.equals(ViewerUpdateMonitor.java:256)
+	at java.base/java.util.LinkedList.remove(LinkedList.java:369)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.coalesce(TreeModelContentProvider.java:972)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.schedule(TreeModelContentProvider.java:956)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1191)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-09-29 13:38:10.512
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException: Input to viewer update should not be null
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerUpdateMonitor.<init>(ViewerUpdateMonitor.java:90)
+	at org.eclipse.debug.internal.ui.viewers.model.ChildrenUpdate.<init>(ChildrenUpdate.java:45)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doUpdateElement(TreeModelContentProvider.java:1190)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateElement(TreeModelContentProvider.java:1762)
+	at org.eclipse.jface.viewers.TreeViewer.virtualLazyUpdateWidget(TreeViewer.java:996)
+	at org.eclipse.jface.viewers.TreeViewer.lambda$1(TreeViewer.java:258)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Tree.checkData(Tree.java:373)
+	at org.eclipse.swt.widgets.Tree.cellDataProc(Tree.java:305)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:962)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_store_clear(Native Method)
+	at org.eclipse.swt.widgets.Tree.removeAll(Tree.java:3002)
+	at org.eclipse.jface.viewers.TreeViewer.removeAll(TreeViewer.java:287)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1593)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1589)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.inputChanged(InternalTreeModelViewer.java:486)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1632)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.setViewerInput(VariablesView.java:468)
+	at org.eclipse.debug.internal.ui.views.expression.ExpressionView.viewerInputUpdateComplete(ExpressionView.java:120)
+	at org.eclipse.debug.internal.ui.views.variables.VariablesView.lambda$0(VariablesView.java:299)
+	at org.eclipse.debug.internal.ui.viewers.model.provisional.ViewerInputService.lambda$1(ViewerInputService.java:54)
+	at org.eclipse.debug.internal.ui.viewers.model.ViewerInputUpdate$1.runInUIThread(ViewerInputUpdate.java:75)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-03 20:05:53.332 -----------------------------------------------
 eclipse.buildId=Version 1.11.2
 java.version=11.0.16
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-27 00:18:10.892
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-03 20:06:06.177
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-27 00:18:10.949
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-03 20:06:06.247
 !MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
 
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-03-27 00:18:11.473
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-10-03 20:06:06.775
 !MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-27 00:18:15.457
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-03 20:06:11.971
 !MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-03-27 00:22:55.509 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-27 00:22:59.506
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-27 00:22:59.566
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-03-27 00:23:00.132
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-27 00:23:03.994
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-03-27 00:32:52.474 -----------------------------------------------
+!SESSION 2023-10-04 01:07:53.036 -----------------------------------------------
 eclipse.buildId=Version 1.11.2
 java.version=11.0.16
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-27 00:32:57.044
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-04 01:08:02.544
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-27 00:32:57.115
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-04 01:08:02.610
 !MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
 
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-03-27 00:32:57.674
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-10-04 01:08:03.208
 !MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-27 00:33:01.806
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-04 01:08:09.628
 !MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-03-28 19:05:07.270 -----------------------------------------------
+!SESSION 2023-10-04 02:39:00.210 -----------------------------------------------
 eclipse.buildId=Version 1.11.2
 java.version=11.0.16
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-28 19:05:11.525
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-04 02:39:06.533
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-28 19:05:11.583
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-04 02:39:06.610
 !MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
 
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-03-28 19:05:12.118
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-10-04 02:39:07.205
 !MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-28 19:05:16.008
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-02 20:51:06.723 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-02 20:51:10.978
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-02 20:51:11.039
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-02 20:51:11.610
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-02 20:51:15.215
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-02 22:42:25.134 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-02 22:42:29.081
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-02 22:42:29.137
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-02 22:42:29.659
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-02 22:42:34.132
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-09 17:56:38.379 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-09 17:56:42.902
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-09 17:56:42.969
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-09 17:56:43.546
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-09 17:56:48.166
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-17 01:42:58.100 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-17 01:43:03.286
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-17 01:43:03.346
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-17 01:43:03.920
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-17 01:43:08.528
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-04 02:39:18.305
 !MESSAGE Started RMI Server, listening on port 41337
 
-!ENTRY org.eclipse.core.resources 4 566 2023-04-17 03:24:09.480
-!MESSAGE Workspace was not properly initialized or has already shutdown.
-!SESSION 2023-04-19 13:32:04.705 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-04 02:47:15.664
+!MESSAGE Indexed 'EPS_Firmware' (44 sources, 163 headers) in 3.63 sec: 18,446 declarations; 103,878 references; 3 unresolved inclusions; 156 syntax errors; 172 unresolved names (0.14%)
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-19 13:32:08.971
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-04 03:44:13.309
+!MESSAGE Indexed 'EPS_Firmware' (44 sources, 163 headers) in 3.8 sec: 18,446 declarations; 103,878 references; 3 unresolved inclusions; 156 syntax errors; 172 unresolved names (0.14%)
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-19 13:32:09.033
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-19 13:32:09.573
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-19 13:32:14.258
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-19 13:49:16.125 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-19 13:49:20.437
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-19 13:49:20.500
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-19 13:49:21.042
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-19 13:49:25.306
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-29 18:37:14.459 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-29 18:37:20.089
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-29 18:37:20.150
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-29 18:37:20.763
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-29 18:37:24.506
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-30 00:58:15.599 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-30 00:58:19.617
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-30 00:58:19.672
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-30 00:58:20.207
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-30 00:58:24.122
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-04-30 19:14:45.419 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-30 19:14:49.779
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-30 19:14:49.846
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-04-30 19:14:50.450
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-30 19:14:55.085
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-08-03 21:35:06.806 -----------------------------------------------
-eclipse.buildId=Version 1.11.2
-java.version=11.0.16
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware -os linux -ws gtk -arch x86_64
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-03 21:35:11.314
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-03 21:35:11.393
-!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
-
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-08-03 21:35:11.972
-!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-03 21:35:16.313
-!MESSAGE Started RMI Server, listening on port 41337
-
-!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-08-03 21:41:39.532
-!MESSAGE Error in final launch sequence:
-
-Failed to execute MI command:
-target remote localhost:2331
-
-Error message from debugger back end:
-localhost:2331: Connection timed out.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Failed to execute MI command:
-target remote localhost:2331
-
-Error message from debugger back end:
-localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
-	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:328)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-04 03:46:09.380
+!MESSAGE An internal error occurred during: "Suspend monitor job.".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5a9567cc[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4a1844b7[Wrapped task = org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob$2@4f2a17d]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@2a1a5231[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3821]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob.run(GDBRunControl_7_12.java:358)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.Exception: localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
-!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-08-03 21:41:39.534
-!MESSAGE Failed to execute MI command:
-target remote localhost:2331
 
-Error message from debugger back end:
-localhost:2331: Connection timed out.
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-04 03:47:10.128
+!MESSAGE An internal error occurred during: "Suspend monitor job.".
 !STACK 0
-java.lang.Exception: localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
-
-!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-08-03 21:42:10.630
-!MESSAGE Error in final launch sequence:
-
-Failed to execute MI command:
-target remote localhost:2331
-
-Error message from debugger back end:
-localhost:2331: Connection timed out.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Failed to execute MI command:
-target remote localhost:2331
-
-Error message from debugger back end:
-localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
-	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:328)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@47fa3a1e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@f0c0e3c[Wrapped task = org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob$2@56930848]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@67390313[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3676]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob.run(GDBRunControl_7_12.java:358)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.Exception: localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
-!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-08-03 21:42:10.631
-!MESSAGE Failed to execute MI command:
-target remote localhost:2331
 
-Error message from debugger back end:
-localhost:2331: Connection timed out.
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-04 03:51:02.191
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@5e875040): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Suspend operation timeout.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-04 03:51:02.191
+!MESSAGE Suspend operation timeout.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-04 03:51:12.256
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@552917b4): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Suspend operation timeout.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-04 03:51:12.257
+!MESSAGE Suspend operation timeout.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-04 03:51:22.263
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@4184a69): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Suspend operation timeout.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-04 03:51:22.263
+!MESSAGE Suspend operation timeout.
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-04 03:55:22.272
+!MESSAGE An internal error occurred during: "Suspend monitor job.".
 !STACK 0
-java.lang.Exception: localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
-!SESSION 2023-08-05 23:29:40.939 -----------------------------------------------
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7076a354[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5920611f[Wrapped task = org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob$2@6fce9331]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@19b992e6[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3569]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob.run(GDBRunControl_7_12.java:358)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-04 03:58:43.553
+!MESSAGE An internal error occurred during: "Suspend monitor job.".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@65f06dd[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1e3edd[Wrapped task = org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob$2@4500c5f3]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@795d10c6[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9285]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_12$MonitorSuspendJob.run(GDBRunControl_7_12.java:358)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-04 04:38:38.542 -----------------------------------------------
 eclipse.buildId=Version 1.11.2
 java.version=11.0.16
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-05 23:29:45.983
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-04 04:38:45.391
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-05 23:29:46.051
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-04 04:38:45.464
 !MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
 
-!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-08-05 23:29:46.654
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-10-04 04:38:45.992
 !MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-05 23:30:23.255
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-04 04:38:52.471
 !MESSAGE Started RMI Server, listening on port 41337
 
-!ENTRY org.eclipse.core.jobs 4 2 2023-08-05 23:32:34.786
-!MESSAGE Deadlock detected. All locks owned by thread main will be suspended.
+!ENTRY org.eclipse.core.resources 4 2 2023-10-04 05:58:47.054
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
 !STACK 0
-java.lang.IllegalStateException
-	at org.eclipse.core.internal.jobs.DeadlockDetector.reportDeadlock(DeadlockDetector.java:604)
-	at org.eclipse.core.internal.jobs.DeadlockDetector.lockWaitStart(DeadlockDetector.java:408)
-	at org.eclipse.core.internal.jobs.LockManager.addLockWaitThread(LockManager.java:147)
-	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:171)
-	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:109)
-	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:85)
-	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.getProjectStorageElement(CConfigBasedDescriptor.java:442)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:103)
+java.lang.NullPointerException
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:881)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:102)
 	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:96)
 	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1373)
 	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:223)
@@ -1033,375 +965,107 @@ java.lang.IllegalStateException
 	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
 	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
 	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
-	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
-	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getSourceRoots(BaseCElementContentProvider.java:466)
-	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:261)
-	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:92)
-	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:231)
-	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getPipelinedChildren(CNavigatorContentProvider.java:256)
-	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getPipelinedChildren(SafeDelegateTreeContentProvider.java:173)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.pipelineChildren(NavigatorContentServiceContentProvider.java:213)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:169)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1438)
-	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
-	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:850)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:638)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2682)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1971)
-	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1904)
-	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
-	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
-	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
-	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
-	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
-	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
-	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
-	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
-	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:495)
-	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:367)
-	at org.eclipse.cdt.ui.CElementContentProvider.lambda$1(CElementContentProvider.java:450)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.open(SwtInputBlocker.java:55)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.block(SwtInputBlocker.java:111)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment.invokeAwt(AwtEnvironment.java:179)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment.invokeAwtAndBlockSwt(AwtEnvironment.java:206)
-	at com.st.stm32cube.common.mx.editor.CubeMxEditor.projectGenerate(CubeMxEditor.java:2221)
-	at com.st.stm32cube.common.mx.editor.CubeMxEditor.generate(CubeMxEditor.java:2191)
-	at com.st.stm32cube.ide.mcu.ide.process.MCUCubeMxProjectProcessOperation$1.run(MCUCubeMxProjectProcessOperation.java:222)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
-	at com.st.stm32cube.ide.mcu.ide.process.MCUProjectCreationProcessOperationProvider.doProjectCreationProcessOperation(MCUProjectCreationProcessOperationProvider.java:177)
-	at com.st.stm32cube.common.projectcreation.ui.wizard.STM32ProjectWizardAbstract.doProjectCreation(STM32ProjectWizardAbstract.java:619)
-	at com.st.stm32cube.common.projectcreation.ui.wizard.STM32ProjectWizardAbstract.performFinish(STM32ProjectWizardAbstract.java:132)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
-	at org.eclipse.jface.window.Window.open(Window.java:799)
-	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:130)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SUBENTRY 1 org.eclipse.core.jobs 4 2 2023-08-05 23:32:34.787
-!MESSAGE Thread main has locks: OrderedLock (12) and is waiting for lock OrderedLock (13)
-	at java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
-	at org.eclipse.core.internal.jobs.DeadlockDetector.reportDeadlock(DeadlockDetector.java:618)
-	at org.eclipse.core.internal.jobs.DeadlockDetector.lockWaitStart(DeadlockDetector.java:408)
-	at org.eclipse.core.internal.jobs.LockManager.addLockWaitThread(LockManager.java:147)
-	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:171)
-	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:109)
-	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:85)
-	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.getProjectStorageElement(CConfigBasedDescriptor.java:442)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:103)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:96)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1373)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:223)
-	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:118)
-	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:144)
-	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:83)
-	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:433)
-	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:418)
-	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:168)
-	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:68)
-	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:203)
-	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:193)
-	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:74)
-	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:37)
-	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:163)
-	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:100)
-	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:91)
-	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:84)
-	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:49)
-	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:38)
-	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:82)
-	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:60)
-	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:40)
-	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:242)
-	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:117)
-	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:154)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
-	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
-	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
-	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
-	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
-	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
-	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
-	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
-	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
-	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
-	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
-	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getSourceRoots(BaseCElementContentProvider.java:466)
-	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:261)
-	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:92)
-	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:231)
-	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getPipelinedChildren(CNavigatorContentProvider.java:256)
-	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getPipelinedChildren(SafeDelegateTreeContentProvider.java:173)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.pipelineChildren(NavigatorContentServiceContentProvider.java:213)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:169)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
-	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1438)
-	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
-	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:850)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:638)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2682)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1971)
-	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
-	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1904)
-	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
-	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
-	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
-	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
-	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
-	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
-	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
-	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
-	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:495)
-	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:367)
-	at org.eclipse.cdt.ui.CElementContentProvider.lambda$1(CElementContentProvider.java:450)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.open(SwtInputBlocker.java:55)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.block(SwtInputBlocker.java:111)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment.invokeAwt(AwtEnvironment.java:179)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment.invokeAwtAndBlockSwt(AwtEnvironment.java:206)
-	at com.st.stm32cube.common.mx.editor.CubeMxEditor.projectGenerate(CubeMxEditor.java:2221)
-	at com.st.stm32cube.common.mx.editor.CubeMxEditor.generate(CubeMxEditor.java:2191)
-	at com.st.stm32cube.ide.mcu.ide.process.MCUCubeMxProjectProcessOperation$1.run(MCUCubeMxProjectProcessOperation.java:222)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
-	at com.st.stm32cube.ide.mcu.ide.process.MCUProjectCreationProcessOperationProvider.doProjectCreationProcessOperation(MCUProjectCreationProcessOperationProvider.java:177)
-	at com.st.stm32cube.common.projectcreation.ui.wizard.STM32ProjectWizardAbstract.doProjectCreation(STM32ProjectWizardAbstract.java:619)
-	at com.st.stm32cube.common.projectcreation.ui.wizard.STM32ProjectWizardAbstract.performFinish(STM32ProjectWizardAbstract.java:132)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
-	at org.eclipse.jface.window.Window.open(Window.java:799)
-	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:130)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4581)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-
-!SUBENTRY 1 org.eclipse.core.jobs 4 2 2023-08-05 23:32:34.787
-!MESSAGE Thread AWT-EventQueue-0 has locks: R/, OrderedLock (13), OrderedLock (0) and is waiting for lock OrderedLock (12)
-	at java.base@11.0.16/java.lang.Object.wait(Native Method)
-	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
-	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:173)
-	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:109)
-	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:85)
-	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:233)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
-	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
-	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
-	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
-	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
-	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
-	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
-	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
-	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
-	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
-	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
-	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
-	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
-	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
-	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
-	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
-	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:934)
+	at org.eclipse.cdt.internal.core.model.CProject.getBinaryContainer(CProject.java:79)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.getBinaryFiles(BuildAnalytics.java:490)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.looksForBinaries(BuildAnalytics.java:404)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.access$4(BuildAnalytics.java:388)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics$2.resourceChanged(BuildAnalytics.java:173)
 	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
 	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
 	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1505)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2329)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
-	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
-	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
-	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
-	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor$SerializingJob.serialize(CConfigBasedDescriptor.java:144)
-	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.apply(CConfigBasedDescriptor.java:277)
-	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.saveProjectData(CConfigBasedDescriptor.java:652)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.save(ScannerConfigInfoFactory2.java:168)
-	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$BuildProperty.save(ScannerConfigInfoFactory2.java:1151)
-	at com.st.stm32cube.ide.mcu.build.setup.BuildSetupUtilities.setScannerDiscovery(BuildSetupUtilities.java:2288)
-	at com.st.stm32cube.ide.common.services.build.BuildSetupService.doBuildSetup(BuildSetupService.java:174)
-	at com.st.stm32cube.ide.common.services.build.BuildSetupService.doBuildSetup(BuildSetupService.java:95)
-	at com.st.stm32cube.ide.common.services.build.BuildSetupService.doBuildSetup(BuildSetupService.java:63)
-	at com.st.stm32cube.ide.common.services.adapted.core.build.BuildSetupRcpServiceProcess.doBuildSetup(BuildSetupRcpServiceProcess.java:278)
-	at com.st.stm32cube.ide.common.services.adapted.core.build.BuildSetupRcpServiceProcess.doBuildSetup(BuildSetupRcpServiceProcess.java:163)
-	at com.st.stm32cube.ide.common.services.adapted.core.build.BuildSetupRcpServiceProcess.run(BuildSetupRcpServiceProcess.java:132)
-	at com.st.stm32cube.ide.common.services.mx.core.build.BuildSetupRcpService.doBuildSetup(BuildSetupRcpService.java:195)
-	at com.st.stm32cube.ide.common.services.mx.core.build.BuildSetupRcpService.run(BuildSetupRcpService.java:191)
-	at com.st.stm32cube.ide.common.services.mx.generate.MxGenerateProjectRcpService.run(MxGenerateProjectRcpService.java:127)
-	at com.st.stm32cube.ide.mcu.ide.process.MxIdePlugInProjectGeneratorAbstract.doExecute(MxIdePlugInProjectGeneratorAbstract.java:325)
-	at com.st.stm32cube.ide.mcu.ide.process.MxIdePlugInProjectGeneratorAbstract.doGenerate(MxIdePlugInProjectGeneratorAbstract.java:213)
-	at com.st.stm32cube.ide.mcu.ide.process.MxIdePlugInProjectGeneratorAbstract.generate(MxIdePlugInProjectGeneratorAbstract.java:87)
-	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.st.microxplorer.plugins.projectmanager.model.ToolchainGenerator.CallMethod(ToolchainGenerator.java:275)
-	at com.st.microxplorer.plugins.projectmanager.model.ToolchainGenerator.generate(ToolchainGenerator.java:393)
-	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createToolChainFolders(ProjectBuilder.java:4295)
-	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:921)
-	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:562)
-	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1319)
-	at com.st.stm32cube.common.mx.editor.CubeMxEditor.doGenerate(CubeMxEditor.java:2538)
-	at com.st.stm32cube.common.mx.editor.CubeMxEditor$22.run(CubeMxEditor.java:2258)
-	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166)
-	at java.desktop@11.0.16/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop@11.0.16/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop@11.0.16/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop@11.0.16/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base@11.0.16/java.security.AccessController.doPrivileged(Native Method)
-	at java.base@11.0.16/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop@11.0.16/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop@11.0.16/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop@11.0.16/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop@11.0.16/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop@11.0.16/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop@11.0.16/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop@11.0.16/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-
-
-!ENTRY org.eclipse.cdt.core 1 0 2023-08-05 23:32:39.219
-!MESSAGE Indexed 'FC_Firmware' (21 sources, 82 headers) in 2.35 sec: 5,423 declarations; 30,886 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0055%)
-
-!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-08-05 23:52:42.040
-!MESSAGE Error in final launch sequence:
-
-Failed to execute MI command:
-target remote localhost:2331
-
-Error message from debugger back end:
-localhost:2331: Connection timed out.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Failed to execute MI command:
-target remote localhost:2331
-
-Error message from debugger back end:
-localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
-	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
-	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:328)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:367)
+	at org.eclipse.core.internal.events.AutoBuildJob$AutoBuildOffJob.run(AutoBuildJob.java:327)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.Exception: localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
-!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-08-05 23:52:42.043
-!MESSAGE Failed to execute MI command:
-target remote localhost:2331
 
-Error message from debugger back end:
-localhost:2331: Connection timed out.
+!ENTRY org.eclipse.core.resources 4 2 2023-10-04 05:58:47.067
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
 !STACK 0
-java.lang.Exception: localhost:2331: Connection timed out.
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
-	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+java.lang.NullPointerException
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:881)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:102)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:96)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1373)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:223)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:118)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:144)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:83)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:433)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:418)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:168)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:68)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:203)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:193)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:74)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:37)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:163)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:100)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:91)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:84)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:49)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:38)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:82)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:60)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:40)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:242)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:117)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:154)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.CProject.getBinaryContainer(CProject.java:79)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.getBinaryFiles(BuildAnalytics.java:490)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.looksForBinaries(BuildAnalytics.java:404)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.access$4(BuildAnalytics.java:388)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics$2.resourceChanged(BuildAnalytics.java:173)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:367)
+	at org.eclipse.core.internal.events.AutoBuildJob$AutoBuildOffJob.run(AutoBuildJob.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-04 05:58:47.195
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:113)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:139)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:160)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:649)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getAdapter(GdbLaunch.java:454)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.disconnect(GdbLaunch.java:338)
+	at org.eclipse.debug.internal.core.commands.DisconnectCommand.execute(DisconnectCommand.java:35)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-04 23:36:35.824 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-04 23:36:42.650
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-04 23:36:42.711
+!MESSAGE Log4j initialized with config file /home/carlos/Documents/FYCUS/Avionics FYCUS/Firmware/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-10-04 23:36:43.260
+!MESSAGE The 'com.umlet.plugin.imageRefHyperlinkDetector' extension from plug-in 'com.umlet.plugin' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-04 23:36:50.193
+!MESSAGE Started RMI Server, listening on port 41337

@@ -1,0 +1,7 @@
+../Core/Src/LTC4168.c:43:23:get_size	16	static
+../Core/Src/LTC4168.c:47:24:get_command_code	16	static
+../Core/Src/LTC4168.c:51:23:get_offset	16	static
+../Core/Src/LTC4168.c:55:24:get_mask	32	static
+../Core/Src/LTC4168.c:66:6:LTC4162_Init	16	static
+../Core/Src/LTC4168.c:84:19:LTC4162_SetReg	40	static
+../Core/Src/LTC4168.c:102:19:LTC4162_GetReg	48	static
