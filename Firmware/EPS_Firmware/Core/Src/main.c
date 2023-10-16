@@ -65,7 +65,7 @@ osThreadId_t MPPT_ICHandle;
 const osThreadAttr_t MPPT_IC_attributes = {
   .name = "MPPT_IC",
   .stack_size = 512 * 4,
-  .priority = (osPriority_t) osPriorityNormal,
+  .priority = (osPriority_t) osPriorityLow,
 };
 /* Definitions for ReportStatus */
 osThreadId_t ReportStatusHandle;
@@ -84,6 +84,8 @@ const osThreadAttr_t PowerRails_attributes = {
 /* USER CODE BEGIN PV */
 static EPS_Telemetry telemetry;
 static uint8_t buf[4];
+static uint8_t buf[BUS_PACKET_BUS_SIZE];
+
 
 
 /* USER CODE END PV */
@@ -265,7 +267,8 @@ static void MX_CRC_Init(void)
   /* USER CODE END CRC_Init 1 */
   hcrc.Instance = CRC;
   hcrc.Init.DefaultPolynomialUse = DEFAULT_POLYNOMIAL_ENABLE;
-  hcrc.Init.DefaultInitValueUse = DEFAULT_INIT_VALUE_ENABLE;
+  hcrc.Init.DefaultInitValueUse = DEFAULT_INIT_VALUE_DISABLE;
+  hcrc.Init.InitValue = 0;
   hcrc.Init.InputDataInversionMode = CRC_INPUTDATA_INVERSION_NONE;
   hcrc.Init.OutputDataInversionMode = CRC_OUTPUTDATA_INVERSION_DISABLE;
   hcrc.InputDataFormat = CRC_INPUTDATA_FORMAT_BYTES;
@@ -274,6 +277,7 @@ static void MX_CRC_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN CRC_Init 2 */
+  HAL_CRCEx_Polynomial_Set(&hcrc, 0x1021, CRC_POLYLENGTH_16B);
 
   /* USER CODE END CRC_Init 2 */
 
@@ -623,11 +627,6 @@ void prvMonitorMPPT(void *argument)
 void prvSendTelemetry(void *argument)
 {
   /* USER CODE BEGIN prvSendTelemetry */
-
-//	HAL_UARTEx_ReceiveToIdle_IT(&huart3, (uint8_t *)buf, 4);
-	static uint8_t buf[BUS_PACKET_BUS_SIZE];
-
-	bus_packet_CRC16CCSDSConfig();
 
 	memcpy(buf, BUS_PACKET_FRAME_SYNC, 4);
 
