@@ -82,10 +82,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot-front]][product-screenshot]
-[![Product Name Screen Shot][product-screenshot-back]][product-screenshot]
-[![Product Name Screen Shot][gui-screenshot]][gui-screenshot]
+![Product front Screen Shot][product-screenshot-front]
+![Product back Screen Shot][product-screenshot-back]
+[![Product gui Screen Shot][gui-screenshot]][gui-screenshot]
 
 This project involves the creation of the PCB and firmware for a 3U CubeSat, in collaboration with FYCUS, a team of passionate students at the University of Seville. Our mission is to design, manufacture and operate small satellites, and this project is a critical step in achieving that goal.
 
