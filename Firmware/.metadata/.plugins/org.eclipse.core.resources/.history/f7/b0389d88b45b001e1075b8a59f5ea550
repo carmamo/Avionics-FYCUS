@@ -1,0 +1,95 @@
+/**
+ ******************************************************************************
+ * @file    EPS_FYCUS.h
+ * @author  Carlos Martinez Mora (carmamo.95@gmail.com)
+ * @date	 Sep 21, 2023
+ * @brief   short description of the file
+ *			...
+ *
+ ******************************************************************************
+ * @attention
+ *
+ *
+ *
+ ******************************************************************************
+ */
+#ifndef INC_EPS_FYCUS_H_
+#define INC_EPS_FYCUS_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "stm32l4xx_hal.h"
+#include <stdbool.h>
+
+/*
+ * DEFINES
+ */
+
+
+/*
+ * VARIABLES
+ */
+
+
+/*
+ * TYPEDEF STRUCTS
+ */
+
+
+typedef struct
+{
+	uint16_t solar_array_1;
+	uint16_t solar_array_2;
+	uint16_t solar_array_3;
+	uint16_t solar_array_4;
+	float temp;
+	uint16_t battery_voltage;
+	uint16_t battery_temperature;
+	uint16_t charge_status;
+} EPS_Telemetry;
+
+
+/*
+ * FUNCTION PROTOTYPES
+ */
+
+void send_telemetry();
+
+void get_temperature();
+
+void get_array_voltage();
+
+/*
+ * INITIALIZE
+ */
+
+void ICI2022_Init(I2C_HandleTypeDef *i2cHandle, UART_HandleTypeDef *uartHandle);
+
+/*
+ * LOW-LEVEL OLED FUNCTIONS
+ */
+
+
+/*
+ * MATH FUNCTIONS
+ */
+
+uint32_t map(uint32_t au32_IN, uint32_t au32_INmin, uint32_t au32_INmax, uint32_t au32_OUTmin, uint32_t au32_OUTmax);
+
+
+/*
+ * LOW-LEVEL FUNCTIONS
+ */
+
+void send_uart(char *string);
+
+
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#endif /* INC_EPS_FYCUS_H_ */

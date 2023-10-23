@@ -1,0 +1,12 @@
+data
+status
+adc_values
+v_bat
+v_in
+i_bat
+v_out
+i_in
+die_temp
+thermistor_voltage
+bsr
+telemetry

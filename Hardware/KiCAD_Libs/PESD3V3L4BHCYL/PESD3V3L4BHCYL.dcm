@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD3V3L4BHCYL
+D PESD3V3L4BHC - 4-fold bidirectional ESD protection array
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD3V3L4BHC.pdf
+$ENDCMP
+#
+#End Doc Library

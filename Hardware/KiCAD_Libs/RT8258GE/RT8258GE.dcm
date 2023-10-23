@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT8258GE
+D IC REG BUCK ADJ 1.2A SOT23-6
+K
+F https://www.richtek.com/assets/product_file/RT8258/DS8258-02.pdf
+$ENDCMP
+#
+#End Doc Library

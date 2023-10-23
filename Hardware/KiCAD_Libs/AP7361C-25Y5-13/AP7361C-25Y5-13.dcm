@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7361C-25Y5-13
+D LDO Voltage Regulators 1A LDO Reg w/Enable 2.5V 6.5Vin 800mW
+K
+F https://componentsearchengine.com/Datasheets/1/AP7361C-25Y5-13.pdf
+$ENDCMP
+#
+#End Doc Library

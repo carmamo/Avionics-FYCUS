@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MHE06033R3M-10
+D Fixed Inductors 3.3 UH 20%
+K
+F https://www.mouser.co.uk/datasheet/2/987/mhe0603_series_datasheet-2583720.pdf
+$ENDCMP
+#
+#End Doc Library

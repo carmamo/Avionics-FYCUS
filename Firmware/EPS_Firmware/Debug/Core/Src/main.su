@@ -1,0 +1,17 @@
+../Core/Inc/bus_packet.h:126:23:bus_packet_GetLength	16	static
+../Core/Src/main.c:117:5:main	8	static
+../Core/Src/main.c:207:6:SystemClock_Config	96	static
+../Core/Src/main.c:256:13:MX_CRC_Init	8	static
+../Core/Src/main.c:287:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:335:13:MX_I2C2_Init	8	static
+../Core/Src/main.c:383:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:423:13:MX_TIM2_Init	48	static
+../Core/Src/main.c:476:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:511:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:560:6:HAL_UARTEx_RxEventCallback	16	static
+../Core/Src/main.c:566:6:HAL_UART_TxCpltCallback	16	static
+../Core/Src/main.c:581:6:prvMonitorMPPT	16	static
+../Core/Src/main.c:623:6:prvSendTelemetry	24	static
+../Core/Src/main.c:660:6:prvPowerManagement	16	static
+../Core/Src/main.c:684:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:701:6:Error_Handler	8	static,ignoring_inline_asm

@@ -1,0 +1,10 @@
+05:49:00 **** Incremental Build of configuration Debug for project EPS_Firmware ****
+make -j12 all 
+arm-none-eabi-size   EPS_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34632	    124	  17836	  52592	   cd70	EPS_Firmware.elf
+Finished building: default.size.stdout
+ 
+
+05:49:01 Build Finished. 0 errors, 0 warnings. (took 228ms)
+
